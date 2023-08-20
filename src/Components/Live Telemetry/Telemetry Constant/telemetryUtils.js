@@ -1,0 +1,1 @@
+//telemety globel functions

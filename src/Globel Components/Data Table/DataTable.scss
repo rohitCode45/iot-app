@@ -1,0 +1,118 @@
+$primary-color: #4285f4;
+$secondary-color: #fbbc05;
+$background-color: #f5f5f5;
+
+.data-table {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2em;
+
+  .table {
+    flex: 9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+    max-width: 100%;
+    overflow: auto;
+    // position: absolute;
+    .tableHeader {
+      // flex: 0.3;
+      background-color: rgb(207, 203, 203);
+      min-width: 100%;
+      width: max-content;
+      position: sticky;
+      top: 0;
+
+      .tableRow {
+        display: flex;
+        width: 100%;
+ 
+        .tableHeaderCell {
+          flex: 1 1;
+          padding: 0.5em;
+          border: 0.4px solid black;
+          font-size: 1.1em;
+        }
+      }
+    }
+    .rowGroup {
+      display: flex;
+      flex-direction: column;
+      max-height: 80vh;
+      // overflow-y: auto;
+      width: 100%;
+      min-width: 100%;
+      width: max-content;
+      .tableRow {
+        display: flex;
+        .tableCell {
+          flex: 1;
+          border: 0.4px solid black;
+          padding: 0.5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .tableRow:nth-child(even) {
+        background-color: lighten($background-color, 5%);
+      }
+      .tableRow:hover {
+        background-color: #d5d5d5;
+      }
+    }
+    .noRows {
+      display: flex;
+      justify-content: center;
+      font-size: 1.6em;
+      align-items: center;
+      color: #a4a4a4;
+      flex: 9 1;
+    }
+  }
+  .pagination {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 0.3em;
+    column-gap: 0.5em;
+    font-weight: bold;
+    .paginantionBtn {
+      background: none;
+      color: inherit;
+      border: none;
+      // padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      background-color: #f5f5f5;
+      padding: 0em 0.3em;
+    }
+    // margin-top: 10px;
+
+    // button {
+    //   background-color: $primary-color;
+    //   color: #ffffff;
+
+    //   border: none;
+    //   cursor: pointer;
+
+    //   &:disabled {
+    //     opacity: 0.5;
+    //     cursor: not-allowed;
+    //   }
+
+    //   &:not(:disabled):hover {
+    //     background-color: darken($primary-color, 10%);
+    //   }
+    // }
+
+    // span {
+    //   // margin: 0 10px;
+    // }
+  }
+}
