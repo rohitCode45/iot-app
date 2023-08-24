@@ -1,77 +1,93 @@
-import React from 'react';
-import { useTable, usePagination } from 'react-table';
+import React, { useState } from 'react';
+import { useTable, useFilters, useSortBy } from 'react-table';
 import './DataTable.scss'
+import { useImmer } from 'use-immer';
+import { ascSortIcon, dscSortIcon, sortBtnIcon } from '../../Globel Utils/Icons';
 
-const GenericTable = ({ data, columns }) => {
+const DataTable = ({ data, columns, id, loading }) => {
   const {
     getTableProps,
     getTableBodyProps,
     headerGroups,
-    page,
+    rows,
     prepareRow,
-    canPreviousPage,
-    canNextPage,
-    nextPage,
-    previousPage,
-    pageOptions,
-    state: { pageIndex },
-  } = useTable({ columns, data, initialState: { pageIndex: 0, pageSize: 17 } }, usePagination)
+    setFilter
+  } = useTable({
+    columns,
+    data,
+  }, useFilters, useSortBy);
 
-  console.log(headerGroups)
+  const [columnFilter, setColumnFilter] = useImmer({})
+
+  const handleFilerChanger = (filterColumn, filterValue) => {
+    setColumnFilter((prev) => {
+      prev[filterColumn] = filterValue
+    })
+    setFilter(filterColumn, filterValue)
+  }
+
+
+
   return (
-    <div className='data-table'>
-      <table {...getTableProps()} className="table">
-        <thead className='tableHeader'>
-          {headerGroups.map((headerGroup) => (
-            <tr className='tableRow' {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map((column) => (
-                <th style={{minWidth:column.minWidth,width:column.minWidth}} className='tableHeaderCell' {...column.getHeaderProps()}>{column.render('Header')}</th>
-              ))}
-            </tr>
-          ))}
-        </thead>
-        {data && data.length>0 && (
-    <tbody className='rowGroup' {...getTableBodyProps()}>
-    {page.map((row) => {
-      prepareRow(row);
-      return (
-        <tr className='tableRow' {...row.getRowProps()}>
-          {row.cells.map((cell) => {
-            console.log('cell',cell)
-            return(
-              <td style={{minWidth:cell.column.minWidth,width:cell.column.minWidth}} className='tableCell' {...cell.getCellProps()}>{cell.render('Cell')}</td>
-            )
-          })}
-        </tr>
-      );
-    })}
-  </tbody>
-        )}
-    {(!data || data.length===0 ) && (
-    <div className='noRows'>No Data Avalible</div>
-    )}
-    
-      
-      </table>
+    <>
+      {loading ? (
+        <div className=' centerTableInfo'>
+          <div className='loader'></div>
+        </div>
+      ) : (
+        <>
+          <table {...getTableProps()} >
+            <thead>
+              {headerGroups.map((headerGroup) => (
+                <tr {...headerGroup.getHeaderGroupProps()}>
+                  {headerGroup.headers.map((column) => {
+                    const valueId = column.id
+                    return (
+                      <th  {...column.getHeaderProps()} >
+                        {column.render('Header')}
 
-      <div className="pagination">
-        {/* <button>{`<`}</button> */}
-        <button className='paginantionBtn' onClick={() => previousPage()} disabled={!canPreviousPage}>
-    {'<'}
-        </button>
-        <div>{`Page  ${pageIndex + 1} of ${pageOptions.length}`}</div>
-        {/* <span>
-          Page{' '}
-          <strong>
-            {pageIndex + 1} of {pageOptions.length}
-          </strong>
-        </span> */}
-        <button className='paginantionBtn' onClick={() => nextPage()} disabled={!canNextPage}>
-        {'>'}
-        </button>
-      </div>
-    </div>
+                        <div className='coluInfoHeader'>
+                          <input key={valueId + id} placeholder={`Search ${column.render('Header')}`} className='filterInput' value={columnFilter?.[valueId]} onChange={(e) => { handleFilerChanger(valueId, e.target.value) }} />
+                          <span className={`${column.isSorted ? (column.isSortedDesc ? "sort-desc" : "sort-asc") : ""}`}  {...column.getHeaderProps(column.getSortByToggleProps())}>{column.isSorted ? (column.isSortedDesc ? ascSortIcon : dscSortIcon) : sortBtnIcon}</span>
+                        </div>
+                      </th>
+
+
+                    )
+                  })}
+                </tr>
+              ))}
+            </thead>
+            {rows.length > 0 && (<tbody {...getTableBodyProps()}>
+              {rows.map((row) => {
+                prepareRow(row);
+                return (
+                  <tr {...row.getRowProps()}>
+                    {row.cells.map((cell) => {
+                      return (
+                        <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+                      );
+                    })}
+                  </tr>
+                );
+              })}
+
+            </tbody>)}
+
+
+          </table>
+          {rows.length === 0 && (
+            <div className='centerTableInfo'><span>No Data Availible....</span></div>
+          )}
+        </>
+      )
+
+      }
+
+
+    </>
+
   );
 };
 
-export default GenericTable;
+export default DataTable;

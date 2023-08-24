@@ -3,12 +3,12 @@
 //   margin: 0; padding: 0;
 // }
 * {
-  box-sizing: border-box ;
-  padding: 0 ;
-  margin: 0 ;
-
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui;
 }
-body{
+body {
   // width: 99.7vw !important;
   // height: 99vh !important;
   width: 100vw;
@@ -16,7 +16,7 @@ body{
   // width: calc(100vw - 5px);
   // height: calc(100vh - 5px)
 }
-#root{
+#root {
   height: 100%;
   width: 100%;
 }
@@ -40,7 +40,7 @@ body{
   }
 }
 
-.cardTheme{
-  background-color: #FEFFFF;
+.cardTheme {
+  background-color: #feffff;
   // padding: 0.3em;
 }

@@ -1,18 +1,19 @@
-.live-telemetry-main-component{
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.1em;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    .telemtry-container-header{
-        flex:0.2;
-        font-size: 1.1em;
-        padding:0.51em
-    }
-    .telemetry-table-container{
-        padding: 0.3em;
-        flex: 8;
-        }
-
+.live-telemetry-main-component {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.1em;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  .telemtry-container-header {
+    flex: 0.2 1;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding: 0.51em;
+  }
+  .telemetry-table-container {
+    // padding: 0.3em;
+    flex: 8;
+    overflow: auto;
+  }
 }
