@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
 import { useTable, useFilters, useSortBy } from 'react-table';
 import './DataTable.scss'
 import { useImmer } from 'use-immer';
@@ -18,6 +18,10 @@ const DataTable = ({ data, columns, id, loading }) => {
   }, useFilters, useSortBy);
 
   const [columnFilter, setColumnFilter] = useImmer({})
+
+  useLayoutEffect(() => {
+    setColumnFilter({})
+  }, [id])
 
   const handleFilerChanger = (filterColumn, filterValue) => {
     setColumnFilter((prev) => {
@@ -47,7 +51,7 @@ const DataTable = ({ data, columns, id, loading }) => {
                         {column.render('Header')}
 
                         <div className='coluInfoHeader'>
-                          <input key={valueId + id} placeholder={`Search ${column.render('Header')}`} className='filterInput' value={columnFilter?.[valueId]} onChange={(e) => { handleFilerChanger(valueId, e.target.value) }} />
+                          <input key={valueId + id} placeholder={`Search ${column.render('Header')}`} className='filterInput' value={columnFilter?.[valueId] ?? ''} onChange={(e) => { handleFilerChanger(valueId, e.target.value) }} />
                           <span className={`${column.isSorted ? (column.isSortedDesc ? "sort-desc" : "sort-asc") : ""}`}  {...column.getHeaderProps(column.getSortByToggleProps())}>{column.isSorted ? (column.isSortedDesc ? ascSortIcon : dscSortIcon) : sortBtnIcon}</span>
                         </div>
                       </th>

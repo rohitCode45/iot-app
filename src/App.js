@@ -18,22 +18,21 @@ function App() {
   return (
     <Router>
       <div className="App main-app">
-    {/* <Header/> */}
+        {/* <Header/> */}
         <div className="main-app-container">
-      <Sidebar />
-      <div className="page-component">
-      <Routes>
-            <Route path="/" element={<Outlet />}>
-            <Route index element={<Yardview/>} /> 
-              <Route path={'yardview'} element={<Yardview />} />
-              <Route path="live-telemetry/:id" element={<LiveTemetry />} />
+          <Sidebar />
+          <div id={'main-app'} className="page-component">
+            <Routes>
+              <Route path="/" element={<Outlet />}>
+                <Route index element={<Yardview />} />
+                <Route path={'yardview'} element={<Yardview />} />
+                <Route path="live-telemetry/:id" element={<LiveTemetry />} />
+              </Route>
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
 
-            </Route>
-            <Route path="*" element={<NotFound />} />
-          </Routes> 
-      </div>
-          
-        </div> 
+        </div>
       </div>
     </Router>
   );
