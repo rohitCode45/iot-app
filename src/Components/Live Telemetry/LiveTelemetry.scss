@@ -11,9 +11,32 @@
     font-size: 1.3em;
     padding: 0.51em;
   }
+  .tableInfoContainer {
+    display: flex;
+    margin: 0.1em 0.1em;
+    // column-gap: 0.4em;
+    padding: 0.2em 2em;
+
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    .liveInfoConatiner {
+      display: flex;
+      column-gap: 0.5em;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .countInfo {
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+  }
+
   .telemetry-table-container {
-    // padding: 0.3em;
     flex: 8;
     overflow: auto;
+    margin: 0.5em 0.5em;
   }
 }

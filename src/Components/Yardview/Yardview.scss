@@ -1,0 +1,25 @@
+.yardview-main-component {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.1em;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  .dummy-svg-container {
+    padding: 0.1em 0.21em;
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    .dummy-svg {
+      background: black;
+      width: 100%;
+      height: 100%;
+      color: snow;
+      font-size: 1.5em;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

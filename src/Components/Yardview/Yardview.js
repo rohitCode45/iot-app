@@ -1,10 +1,19 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom'
+import './Yardview.scss'
+import Header from '../../Globel Components/Header/Header'
+import { useSelector } from 'react-redux'
+import { selectLiveData } from '../../Globel Utils/globeldataSlice'
 
 function Yardview() {
-  const yardLocation = useLocation()
+  const liveDataaaa = useSelector(selectLiveData)
+  console.log('liveDataaaa', liveDataaaa)
   return (
-    <div>Yardview</div>
+    <div className="yardview-main-component">
+      <Header label={'Yardview'} />
+      <div className='dummy-svg-container'>
+        <div className='dummy-svg'>Coming soon...</div>
+      </div>
+    </div>
   )
 }
 

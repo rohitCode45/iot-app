@@ -77,9 +77,12 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75%;
+  // height: 75%;
   font-size: 1.3em;
   font-weight: 600;
+  position: absolute;
+  left: 45%;
+  top: 50%;
 }
 
 // .loadAnim {

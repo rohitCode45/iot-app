@@ -12,10 +12,11 @@ const ASSET_TYPES = [
   "EI_IFC",
   "RLY_STATUS",
 ];
+
 export const sidebarData = [
   {
     id: 0,
-    label: "YARD",
+    label: "Yardview",
     url: "/yardview",
   },
   {

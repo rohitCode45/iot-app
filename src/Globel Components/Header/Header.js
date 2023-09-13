@@ -1,11 +1,10 @@
 import React from "react";
 import './Header.scss'
 
-function Header() {
+function Header({ label }) {
   return (
     <div className="app-header">
-      <div className="header-logo">logo</div>
-      <div className="header-label">Iot Dashboard</div>
+      {label}
     </div>
   );
 }
