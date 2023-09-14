@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import DataTable from "../../Globel Components/Data Table/DataTable";
 import "./LiveTelemetry.scss";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -22,14 +22,21 @@ function getTableDataFromTypeMap(liveDataMap, type) {
 }
 
 function LiveTemetry() {
+  const navigate = useNavigate()
   const liveTelemetryData = useSelector(selectLiveData)
   const liveConstant = useSelector(selectLiveStatus)
   const location = useLocation();
-  const telemetryPage = telemetryPageInfo?.[location.state.childUrl];
+  console.log(location.state)
 
+  const telemetryPage = telemetryPageInfo?.[location?.state?.childUrl];
+useEffect(()=>{
+  if(!location.state){
+    navigate('/')
+  }
+},[])
   return (
     <div className="live-telemetry-main-component">
-      <Header label={telemetryPage.Heading ?? "Telemetry"} />
+      <Header label={telemetryPage?.Heading ?? "Telemetry"} />
       <div className="tableInfoContainer">
         <div className="liveInfoConatiner">
           <div style={{ color: liveConstantMap[liveConstant].color }} className="liveStatusIcon">{liveConstantMap[liveConstant].icon}</div>
@@ -37,13 +44,13 @@ function LiveTemetry() {
             {liveConstantMap[liveConstant].text}
           </div>
         </div>
-        <div className="countInfo">Total assets : {getTableDataFromTypeMap(liveTelemetryData, telemetryPage.id).length}</div>
+        <div className="countInfo">Total assets : {getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id).length}</div>
       </div>
       <div className="telemetry-table-container cardTheme">
         <DataTable
           id={telemetryPage?.id ?? ""}
-          columns={telemetryPage.columns}
-          data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage.id)}
+          columns={telemetryPage?.columns ?? []}
+          data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
           loading={false}
         />
       </div>

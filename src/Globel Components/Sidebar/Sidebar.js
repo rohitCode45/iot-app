@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch, Link, useLocation } from "react-router-dom";
 import "./Sidebar.scss";
 import { childToParentMap, sidebarData } from "./SidebarConstant/sidebarConstant";
-import { SIDEBAR_LOGO, sidebarTileExtendedIcon, sidebarTileMinimise, sidebarTileMinimize, sidebarTileMinimizeIcon } from "../../Globel Utils/Icons";
+import btLogo  from '../Logo/btLogo.png'
+import {  sidebarTileExtendedIcon, sidebarTileMinimizeIcon } from "../../Globel Utils/Icons";
 
 const isSelectedParentTile = (selecetdParent, selecetdChild) => {
   let isSelected = false;
@@ -49,7 +50,10 @@ function Sidebar() {
   const location = useLocation()
   return (
     <div className="sidebar-main-conatiner">
-      <div className="sideBarHeader">{SIDEBAR_LOGO}</div>
+      <div className="sideBarHeader">
+      <img class="pointer" src={btLogo} alt="Bitcomm Logo" height="45px"/>
+      </div>
+      {/* <div className="sideBarHeader">{SIDEBAR_LOGO}</div> */}
       <div className="sidebar">
         {sidebarData.map((sidebarItem, index) => {
           if (sidebarItem.children) {
