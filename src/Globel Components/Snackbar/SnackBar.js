@@ -1,4 +1,3 @@
-import { createElement } from "react"
 import './Snackbar.scss'
 
 const snackLogos = {
@@ -22,7 +21,6 @@ export const showSnackbar = (type, desc) => {
     snackLogoContainer.innerHTML = svgLogo
     snackContaner.appendChild(snackLogoContainer)
     snackContaner.appendChild(snackDescContainer)
-
     mainPageComp.appendChild(snackContaner)
 
     setTimeout(() => {

@@ -1,7 +1,5 @@
 /* globel css */
-// html, body{
-//   margin: 0; padding: 0;
-// }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,20 +7,14 @@
   font-family: system-ui;
 }
 body {
-  // width: 99.7vw !important;
-  // height: 99vh !important;
   width: 100vw;
   height: 100vh;
-  // width: calc(100vw - 5px);
-  // height: calc(100vh - 5px)
 }
 #root {
   height: 100%;
   width: 100%;
 }
 .main-app {
-  // width: 100vw !important;
-  // height: 100vh !important;
   height: 100%;
   width: 100%;
 
@@ -36,31 +28,29 @@ body {
       flex: 9;
       box-sizing: border-box;
       position: relative;
-      #snackbarContainer {
-        display: flex;
-        font-size: 1.1em;
-        column-gap: 1em;
-        font-weight: 600;
-        max-width: -moz-fit-content;
-        min-width: fit-content;
-        background-color: snow;
-        position: absolute;
-        border-radius: 0.5em;
-        top: 1.5%;
-        padding: 0.2em 1.5em;
-        justify-content: inherit;
-        align-items: center;
-        left: 40%;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-      }
     }
   }
 }
-
+#snackbarContainer {
+  display: flex;
+  font-size: 1.1em;
+  column-gap: 1em;
+  font-weight: 600;
+  max-width: -moz-fit-content;
+  min-width: fit-content;
+  background-color: snow;
+  position: absolute;
+  border-radius: 0.5em;
+  top: 1.5%;
+  padding: 0.2em 1.5em;
+  justify-content: inherit;
+  align-items: center;
+  left: 40%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 .cardTheme {
   background-color: #feffff;
   border-radius: 5px;
   box-shadow: 0 2px 5px -1px rgba(50, 50, 93, 0.25),
     0 1px 3px -1px rgba(0, 0, 0, 0.3);
-  // padding: 0.3em;
 }
