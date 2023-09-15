@@ -12,8 +12,8 @@ function Yardview() {
     <div className="yardview-main-component">
       <Header label={'Yardview'} />
       <div className='dummy-svg-container'>
-        <div className='dummy-svg'>Coming soon...</div>
-        {/* <ATELI /> */}
+        {/* <div className='dummy-svg'>Coming soon...</div> */}
+        <ATELI />
       </div>
     </div>
   )
