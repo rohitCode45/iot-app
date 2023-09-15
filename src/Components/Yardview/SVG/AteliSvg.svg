@@ -1,0 +1,2110 @@
+<svg id="main-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+	<defs>
+		<clipPath id="clip-AELN_Layout">
+			<rect width="1920" height="1080" />
+		</clipPath>
+	</defs>
+	<g id="AELN_Layout" data-name="AELN Layout" clip-path="url(#clip-AELN_Layout)">
+		<rect width="1920" height="1080" fill="#fff" />
+		<rect id="Canvas" width="1920" height="1080" />
+		<g id="Track">
+			<path id="TCUMT2Line" d="M27.406-7.011,23.946,0H0" transform="translate(538.5 356.883)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-2" data-name="TCUMT2Line" x1="87.5" transform="translate(569.5 357)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-3" data-name="TCUMT2Line" x1="96" y1="0.5" transform="translate(797.5 356)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-4" data-name="TCUMT2Line" x1="87" transform="translate(895.5 356.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-5" data-name="TCUMT2Line" x1="82" transform="translate(984 356.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-6" data-name="TCUMT2Line" x1="24" transform="translate(1154.5 357.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-7" data-name="TCUMT2Line" x1="48" transform="translate(1225.5 357.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-8" data-name="TCUMT2Line" d="M22,0H-3.364L-7.437-5.1" transform="translate(1282.5 357.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-9" data-name="TCUMT2Line" d="M26,0H-.5L-10.776-9.409" transform="translate(1460.5 357.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-10" data-name="TCUMT2Line" x1="78" transform="translate(333.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-11" data-name="TCUMT2Line" d="M32.7-6.518,28.094.227,0,0" transform="translate(297.5 421.25)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-12" data-name="TCUMT2Line" d="M179,.247" transform="translate(477.5 421.986)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-13" data-name="TCUMT2Line" x1="137.5" transform="translate(758 421.264)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-14" data-name="TCUMT2Line" x1="92" transform="translate(897.5 421.264)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-15" data-name="TCUMT2Line" x1="57" y1="0.236" transform="translate(991.5 421.264)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-16" data-name="TCUMT2Line" x1="138" transform="translate(1050.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-17" data-name="TCUMT2Line" x1="61" transform="translate(1190.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-18" data-name="TCUMT2Line" x1="129" transform="translate(1276.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-19" data-name="TCUMT2Line" x1="83" transform="translate(1407.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-20" data-name="TCUMT2Line" x1="122" transform="translate(1492.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-21" data-name="TCUMT2Line" x1="154" transform="translate(1616.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-22" data-name="TCUMT2Line" x1="124" transform="translate(1771.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-23" data-name="TCUMT2Line" x1="120" transform="translate(25.5 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-24" data-name="TCUMT2Line" x1="121" transform="translate(147.5 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-25" data-name="TCUMT2Line" x1="75" transform="translate(270.5 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-26" data-name="TCUMT2Line" x1="60.588" transform="translate(347.5 481)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-27" data-name="TCUMT2Line" x1="70.5" transform="translate(471.5 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-28" data-name="TCUMT2Line" x1="126" transform="translate(544 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-29" data-name="TCUMT2Line" x1="146" transform="translate(757.5 481.054)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-30" data-name="TCUMT2Line" x1="141" transform="translate(905.5 481.054)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-31" data-name="TCUMT2Line" x1="20" transform="translate(1048.5 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-32" data-name="TCUMT2Line" x1="32" transform="translate(1156.5 480.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-33" data-name="TCUMT2Line" x1="86" transform="translate(1190.5 480.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-34" data-name="TCUMT2Line" x1="103" transform="translate(1278.5 480.607)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-35" data-name="TCUMT2Line" x1="116" transform="translate(1383.5 480.607)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-36" data-name="TCUMT2Line" x1="65" transform="translate(1501.5 480.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-37" data-name="TCUMT2Line" d="M43.58,0H.487L-5.093,11.512" transform="translate(1572.071 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-38" data-name="TCUMT2Line" d="M-3.987,11.013H39.5l4.015-9.989" transform="translate(1505.487 533.976)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-39" data-name="TCUMT2Line" x1="279" transform="translate(1616.5 481.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-40" data-name="TCUMT2Line" x1="250" transform="translate(1645.5 545.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-41" data-name="TCUMT2Line" x1="62" transform="translate(1581.5 545.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-42" data-name="TCUMT2Line" x1="30" transform="translate(1549.5 545.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-43" data-name="TCUMT2Line" x1="84" y1="0.489" transform="translate(1415.5 544.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-44" data-name="TCUMT2Line" d="M9.844.489-4.191.758l-5.442,9.759" transform="translate(1405.656 544.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-45" data-name="TCUMT2Line" d="M-7.431,9.562H29.228L34.062.212" transform="translate(1337.931 598.824)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-46" data-name="TCUMT2Line" x1="66" transform="translate(1332 544.875)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-47" data-name="TCUMT2Line" x1="346.5" transform="translate(983.5 544.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-48" data-name="TCUMT2Line" x1="160" transform="translate(822.5 544.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-49" data-name="TCUMT2Line" x1="146" transform="translate(675 544.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-50" data-name="TCUMT2Line" x1="101" transform="translate(572.5 544.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-51" data-name="TCUMT2Line" x1="65.5" y2="0.122" transform="translate(505.5 544.378)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-52" data-name="TCUMT2Line" d="M54.861,11.4,47.116-1.236H-.345" transform="translate(451.131 545.614)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-53" data-name="TCUMT2Line" d="M-2.448-6.365,3.235,3.388l31.839.149" transform="translate(532.426 605.341)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-54" data-name="TCUMT2Line" x1="97" transform="translate(350.5 545.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-55" data-name="TCUMT2Line" x1="76" transform="translate(272.5 545.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-56" data-name="TCUMT2Line" x1="123" transform="translate(147.5 545.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-57" data-name="TCUMT2Line" x1="122.5" transform="translate(23 545.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-58" data-name="TCUMT2Line" x1="101" transform="translate(569.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-59" data-name="TCUMT2Line" x1="148" transform="translate(672.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-60" data-name="TCUMT2Line" x1="79" transform="translate(822 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-61" data-name="TCUMT2Line" d="M44.881,30.5,35,0H0" transform="translate(902.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-62" data-name="TCUMT2Line" d="M0,0,10.847,32.5h41.91" transform="translate(947.381 639)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-63" data-name="TCUMT2Line" x1="57.657" transform="translate(941.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-64" data-name="TCUMT2Line" x1="62.157" y1="0.132" transform="translate(1000.343 671.368)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-65" data-name="TCUMT2Line" x1="68.579" transform="translate(1204 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-66" data-name="TCUMT2Line" d="M58.707-.028,5.542,0-5.331,30.614" transform="translate(1270.331 608.386)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TC207AXTLine" d="M-5.331,32.5H45.752L56.723,0" transform="translate(1208.277 639)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-67" data-name="TCUMT2Line" x1="35" transform="translate(1257.5 671.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-68" data-name="TCUMT2Line" x1="125.5" transform="translate(1374.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-69" data-name="TCUMT2Line" x1="150" transform="translate(1501.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-70" data-name="TCUMT2Line" x1="127.5" transform="translate(1653.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-71" data-name="TCUMT2Line" x1="126" transform="translate(1783 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-72" data-name="TCUMT2Line" x1="68" y2="0.378" transform="translate(461.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-73" data-name="TCUMT2Line" d="M32.548,10.842,21.552.378H0" transform="translate(430.5 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-74" data-name="TCUMT2Line" x1="113" transform="translate(555.5 671.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-75" data-name="TCUMT2Line" x1="139.5" transform="translate(761.5 671.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-76" data-name="TCUMT2Line" x1="50.51" transform="translate(902.99 671.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-77" data-name="TCUMT2Line" x1="48.5" transform="translate(1152.5 671.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-78" data-name="TCUMT2Line" d="M36,0H3.375L-11.388,11.963" transform="translate(1027.5 734.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-79" data-name="TCUMT2Line" x1="64" transform="translate(822 294)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-80" data-name="TCUMT2Line" d="M32.89-10.658,25.375,0H0" transform="translate(792 293.329)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-81" data-name="TCUMT2Line" x1="74" transform="translate(413.5 421.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-82" data-name="TCUMT2Line" x1="119.078" transform="translate(417.5 357)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-83" data-name="TCUMT2Line" x1="64" y2="0.5" transform="translate(346.5 357)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<text id="C5XT" transform="translate(1819 436)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					C5XT
+				</tspan>
+			</text>
+			<text id="_30XT" data-name="30XT" transform="translate(1689 416)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					30XT
+				</tspan>
+			</text>
+			<text id="_6XT" data-name="6XT" transform="translate(1538 436)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					6XT
+				</tspan>
+			</text>
+			<text id="_206XT" data-name="206XT" transform="translate(1455 416)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					206XT
+				</tspan>
+			</text>
+			<text id="_204AXT" data-name="204AXT" transform="translate(1351 416)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					204AXT
+				</tspan>
+			</text>
+			<text id="_208BXT" data-name="208BXT" transform="translate(1199 436)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					208BXT
+				</tspan>
+			</text>
+			<text id="_05BXT" data-name="05BXT" transform="translate(1091 436)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					05BXT
+				</tspan>
+			</text>
+			<text id="_06BXT" data-name="06BXT" transform="translate(1091 377)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					06BXT
+				</tspan>
+			</text>
+			<text id="_04BXT" data-name="04BXT" transform="translate(1091 504)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					04BXT
+				</tspan>
+			</text>
+			<text id="_242AXT" data-name="242AXT" transform="translate(1000 416)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					242AXT
+				</tspan>
+			</text>
+			<text id="_244BXT" data-name="244BXT" transform="translate(905 435)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					244BXT
+				</tspan>
+			</text>
+			<text id="_05AXT" data-name="05AXT" transform="translate(693 443)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					05AXT
+				</tspan>
+			</text>
+			<text id="_288BXT" data-name="288BXT" transform="translate(554 416)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					288BXT
+				</tspan>
+			</text>
+			<text id="_296AXT" data-name="296AXT" transform="translate(428 416)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					296AXT
+				</tspan>
+			</text>
+			<text id="_292AXT" data-name="292AXT" transform="translate(341 436)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					292AXT
+				</tspan>
+			</text>
+			<text id="_292BXT" data-name="292BXT" transform="translate(316 374)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					292BXT
+				</tspan>
+			</text>
+			<text id="BVXT" transform="translate(465 372)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					BVXT
+				</tspan>
+			</text>
+			<text id="_288AXT" data-name="288AXT" transform="translate(617 351)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					288AXT
+				</tspan>
+			</text>
+			<text id="_06AXT" data-name="06AXT" transform="translate(693 382)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					06AXT
+				</tspan>
+			</text>
+			<text id="_04AXT" data-name="04AXT" transform="translate(693 505)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					04AXT
+				</tspan>
+			</text>
+			<text id="_246AXT" data-name="246AXT" transform="translate(810 372)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					246AXT
+				</tspan>
+			</text>
+			<text id="_244AXT" data-name="244AXT" transform="translate(943 351)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					244AXT
+				</tspan>
+			</text>
+			<text id="_208AXT" data-name="208AXT" transform="translate(1184 371)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					208AXT
+				</tspan>
+			</text>
+			<line id="TCUMT2Line-84" data-name="TCUMT2Line" x1="10" transform="translate(659 357)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-85" data-name="TCUMT2Line" x1="38" transform="translate(758 356)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-86" data-name="TCUMT2Line" x1="10" transform="translate(659 421)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<text id="C98XT" transform="translate(65 477)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					C98XT
+				</tspan>
+			</text>
+			<text id="_98XT" data-name="98XT" transform="translate(211 476)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					98XT
+				</tspan>
+			</text>
+			<text id="_299AXT" data-name="299AXT" transform="translate(273 496)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					299AXT
+				</tspan>
+			</text>
+			<text id="_298BXT" data-name="298BXT" transform="translate(345 501)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					298BXT
+				</tspan>
+			</text>
+			<text id="_242BXT" data-name="242BXT" transform="translate(932 494)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					242BXT
+				</tspan>
+			</text>
+			<text id="_4XT" data-name="4XT" transform="translate(1220 496)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					4XT
+				</tspan>
+			</text>
+			<text id="_204BXT" data-name="204BXT" transform="translate(1337 475)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					204BXT
+				</tspan>
+			</text>
+			<text id="_202AXT" data-name="202AXT" transform="translate(1388 475)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					202AXT
+				</tspan>
+			</text>
+			<text id="_201BXT" data-name="201BXT" transform="translate(1508 475)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					201BXT
+				</tspan>
+			</text>
+			<text id="A2XT" transform="translate(1711 496)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					A2XT
+				</tspan>
+			</text>
+			<text id="_1XT" data-name="1XT" transform="translate(1711 560)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					1XT
+				</tspan>
+			</text>
+			<text id="_203AXT" data-name="203AXT" transform="translate(1599 560)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					203AXT
+				</tspan>
+			</text>
+			<text id="_201AXT" data-name="201AXT" transform="translate(1503 540)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					201AXT
+				</tspan>
+			</text>
+			<text id="_202BXT" data-name="202BXT" transform="translate(1458 540)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					202BXT
+				</tspan>
+			</text>
+			<text id="_205BXT" data-name="205BXT" transform="translate(1344 559)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					205BXT
+				</tspan>
+			</text>
+			<text id="_03AXT" data-name="03AXT" transform="translate(1091 559)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					03AXT
+				</tspan>
+			</text>
+			<text id="_249AXT" data-name="249AXT" transform="translate(906 540)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					249AXT
+				</tspan>
+			</text>
+			<text id="_246BXT" data-name="246BXT" transform="translate(835 290)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					246BXT
+				</tspan>
+			</text>
+			<text id="_03BXT" data-name="03BXT" transform="translate(693 559)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					03BXT
+				</tspan>
+			</text>
+			<text id="_97XT" data-name="97XT" transform="translate(608 540)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					97XT
+				</tspan>
+			</text>
+			<text id="_297BXT" data-name="297BXT" transform="translate(458 560)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					297BXT
+				</tspan>
+			</text>
+			<text id="_298AXT" data-name="298AXT" transform="translate(354 540)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					298AXT
+				</tspan>
+			</text>
+			<text id="_299BXT" data-name="299BXT" transform="translate(310 540)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					299BXT
+				</tspan>
+			</text>
+			<text id="A99XT" transform="translate(183 557)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					A99XT
+				</tspan>
+			</text>
+			<text id="_99XT" data-name="99XT" transform="translate(66 557)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					99XT
+				</tspan>
+			</text>
+			<text id="_297AXT" data-name="297AXT" transform="translate(470 623)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					297AXT
+				</tspan>
+			</text>
+			<text id="_293BXT" data-name="293BXT" transform="translate(605 603)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					293BXT
+				</tspan>
+			</text>
+			<text id="_02BXT" data-name="02BXT" transform="translate(694 623)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					02BXT
+				</tspan>
+			</text>
+			<text id="_249BXT" data-name="249BXT" transform="translate(825 623)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					249BXT
+				</tspan>
+			</text>
+			<text id="_247AXT" data-name="247AXT" transform="translate(952 604)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					247AXT
+				</tspan>
+			</text>
+			<text id="_02AXT" data-name="02AXT" transform="translate(1091 632)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					02AXT
+				</tspan>
+			</text>
+			<text id="_207BXT" data-name="207BXT" transform="translate(1217 622)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					207BXT
+				</tspan>
+			</text>
+			<text id="_205AXT" data-name="205AXT" transform="translate(1426 604)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					205AXT
+				</tspan>
+			</text>
+			<text id="_203BXT" data-name="203BXT" transform="translate(1536 604)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					203BXT
+				</tspan>
+			</text>
+			<text id="_24XT" data-name="24XT" transform="translate(1707 623)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					24XT
+				</tspan>
+			</text>
+			<text id="_22XT" data-name="22XT" transform="translate(1839 604)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					22XT
+				</tspan>
+			</text>
+			<text id="_293AXT" data-name="293AXT" transform="translate(604 666)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					293AXT
+				</tspan>
+			</text>
+			<text id="_01BXT" data-name="01BXT" transform="translate(698 695)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					01BXT
+				</tspan>
+			</text>
+			<text id="_247BXT" data-name="247BXT" transform="translate(909 685)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					247BXT
+				</tspan>
+			</text>
+			<text id="_245XT" data-name="245XT" transform="translate(1034 666)" fill="#fff" font-size="9" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					245XT
+				</tspan>
+			</text>
+			<text id="_01AXT" data-name="01AXT" transform="translate(1091 698)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					01AXT
+				</tspan>
+			</text>
+			<text id="TC207AXTLabel" transform="translate(1206 687)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					207AXT
+				</tspan>
+			</text>
+			<line id="TCUMT2Line-87" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(1009 676)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-88" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(1017 704)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-89" data-name="TCUMT2Line" x1="14" transform="translate(1010 704)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-90" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(578 612)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-91" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(586 640)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-92" data-name="TCUMT2Line" x1="14" transform="translate(579 640)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-93" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(1437 486)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-94" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(1445 514)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-95" data-name="TCUMT2Line" x1="14" transform="translate(1438 514)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-96" data-name="TCUMT2Line" x1="14" transform="translate(1258 639)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-97" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(864 550)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-98" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(872 578)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-99" data-name="TCUMT2Line" x1="14" transform="translate(865 578)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-100" data-name="TCUMT2Line" x1="9" y2="21" transform="translate(1549 514)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-101" data-name="TCUMT2Line" x1="9" y2="21" transform="translate(1558 493)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-102" data-name="TCUMT2Line" x1="14" transform="translate(1551 514)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-103" data-name="TCUMT2Line" x1="12" y2="22" transform="translate(1372 577)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-104" data-name="TCUMT2Line" x1="12" y2="22" transform="translate(1384 555)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-105" data-name="TCUMT2Line" x1="14" transform="translate(1377 577)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-106" data-name="TCUMT2Line" x1="8" y2="28" transform="translate(601 389)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-107" data-name="TCUMT2Line" x1="8" y2="28" transform="translate(609 361)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-108" data-name="TCUMT2Line" x1="14" transform="translate(602 389)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-109" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(374 362)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-110" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(382 390)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-111" data-name="TCUMT2Line" x1="14" transform="translate(375 390)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-112" data-name="TCUMT2Line" x1="63.5" transform="translate(1001 608.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-113" data-name="TCUMT2Line" x1="49" transform="translate(1153 609)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-114" data-name="TCUMT2Line" x1="1" transform="translate(1063 671.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-115" data-name="TCUMT2Line" x1="3" transform="translate(670 671.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-116" data-name="TCUMT2Line" x1="14" transform="translate(940 639)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-117" data-name="TCUMT2Line" x1="8" y2="28" transform="translate(303 513)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-118" data-name="TCUMT2Line" x1="8" y2="28" transform="translate(311 485)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-119" data-name="TCUMT2Line" x1="14" transform="translate(304 513)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-120" data-name="TCUMT2Line" x1="7" y1="26" transform="translate(1300 425)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-121" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(1307 451)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-122" data-name="TCUMT2Line" x1="14" transform="translate(1300 451)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-123" data-name="TCUMT2Line" x1="7" y1="26" transform="translate(974 423)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-124" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(981 449)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-125" data-name="TCUMT2Line" x1="14" transform="translate(974 449)" fill="none" stroke="#fff" stroke-width="1" />
+			<text id="_296BXT" data-name="296BXT" transform="translate(493 476)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					296BXT
+				</tspan>
+			</text>
+			<path id="TCUMT2Line-126" data-name="TCUMT2Line" d="M45.651.255l-50.8.771-4.521,9.533" transform="translate(498.883 420.976)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-127" data-name="TCUMT2Line" d="M-7.431,9.562H50.437L54.7.079" transform="translate(416.431 471.438)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-128" data-name="TCUMT2Line" x1="9.386" y2="21" transform="translate(471.114 450.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-129" data-name="TCUMT2Line" x1="9" y2="19.609" transform="translate(480.25 431.5)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-130" data-name="TCUMT2Line" x1="14" transform="translate(473.5 450)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-131" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(385 485)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-132" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(393 513)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-133" data-name="TCUMT2Line" x1="14" transform="translate(386 513)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-134" data-name="TCUMT2Line" x1="12" y1="22" transform="translate(518 577)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-135" data-name="TCUMT2Line" x1="12" y1="20" transform="translate(506 557)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-136" data-name="TCUMT2Line" x1="14" transform="translate(511 577)" fill="none" stroke="#fff" stroke-width="1" />
+			<path id="TCUMT2Line-137" data-name="TCUMT2Line" d="M54.764,12.874,47.517-.22H6.467" transform="translate(1173.226 358.018)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<path id="TCUMT2Line-138" data-name="TCUMT2Line" d="M12.451-5.356l6.469,9.471H35.727" transform="translate(1239.287 417.463)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-139" data-name="TCUMT2Line" x1="12.5" y1="21.622" transform="translate(1239.3 390.485)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-140" data-name="TCUMT2Line" x1="11.361" y1="19.622" transform="translate(1227.939 370.863)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-141" data-name="TCUMT2Line" x1="14" transform="translate(1232.861 390.122)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-142" data-name="TCUMT2Line" x1="7" y1="26" transform="translate(845 299)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-143" data-name="TCUMT2Line" x1="8" y1="28" transform="translate(852 325)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-144" data-name="TCUMT2Line" x1="14" transform="translate(845 325)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-145" data-name="TCUMT2Line" x1="8" y2="28" transform="translate(1441 388)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-146" data-name="TCUMT2Line" x1="8" y2="28" transform="translate(1449 360)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-147" data-name="TCUMT2Line" x1="14" transform="translate(1442 388)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="TCUMT2Line-148" data-name="TCUMT2Line" x1="111" transform="translate(546 421)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-149" data-name="TCUMT2Line" y1="7" x2="5" transform="translate(330 408)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-150" data-name="TCUMT2Line" x1="6" y1="7" transform="translate(1269.063 345.4)" fill="none" stroke="#6c7091" stroke-width="3" />
+			<line id="TCUMT2Line-151" data-name="TCUMT2Line" x1="3" y2="6" transform="translate(565.86 344)" fill="none" stroke="#6c7091" stroke-width="3" />
+		</g>
+		<g id="Rectangle_" data-name="Rectangle ">
+			<g id="Rectangle_1" data-name="Rectangle 1" transform="translate(1066 347)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+			<g id="Rectangle_2" data-name="Rectangle 2" transform="translate(1068 471)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+			<g id="Rectangle_4" data-name="Rectangle 4" transform="translate(1064 663)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+			<g id="Rectangle_6" data-name="Rectangle 6" transform="translate(669 410)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+			<g id="Rectangle_7" data-name="Rectangle 7" transform="translate(669 472)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+			<g id="Rectangle_8" data-name="Rectangle 8" transform="translate(673 662)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+			<g id="Rectangle_9" data-name="Rectangle 9" transform="translate(669 349)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+			<g id="Rectangle_15" data-name="Rectangle 15" transform="translate(348 640)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="15" height="15" stroke="none" />
+				<rect x="0.5" y="0.5" width="14" height="14" fill="none" />
+			</g>
+			<g id="Rectangle_16" data-name="Rectangle 16" transform="translate(1281 736)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="15" height="15" stroke="none" />
+				<rect x="0.5" y="0.5" width="14" height="14" fill="none" />
+			</g>
+			<g id="Rectangle_17" data-name="Rectangle 17" transform="translate(1775 279)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="91" height="23" stroke="none" />
+				<rect x="0.5" y="0.5" width="90" height="22" fill="none" />
+			</g>
+			<g id="Rectangle_18" data-name="Rectangle 18" transform="translate(1775 325)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="91" height="23" stroke="none" />
+				<rect x="0.5" y="0.5" width="90" height="22" fill="none" />
+			</g>
+			<g id="Rectangle_19" data-name="Rectangle 19" transform="translate(1775 302)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="91" height="23" stroke="none" />
+				<rect x="0.5" y="0.5" width="90" height="22" fill="none" />
+			</g>
+			<g id="Rectangle_10" data-name="Rectangle 10" transform="translate(184 349)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="15" height="15" stroke="none" />
+				<rect x="0.5" y="0.5" width="14" height="14" fill="none" />
+			</g>
+			<g id="Rectangle_11" data-name="Rectangle 11" transform="translate(236 266)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="15" height="15" stroke="none" />
+				<rect x="0.5" y="0.5" width="14" height="14" fill="none" />
+			</g>
+			<g id="Rectangle_12" data-name="Rectangle 12" transform="translate(133 598)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="91" height="23" stroke="none" />
+				<rect x="0.5" y="0.5" width="90" height="22" fill="none" />
+			</g>
+			<g id="Rectangle_13" data-name="Rectangle 13" transform="translate(133 644)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="91" height="23" stroke="none" />
+				<rect x="0.5" y="0.5" width="90" height="22" fill="none" />
+			</g>
+			<g id="Rectangle_14" data-name="Rectangle 14" transform="translate(133 621)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="91" height="23" stroke="none" />
+				<rect x="0.5" y="0.5" width="90" height="22" fill="none" />
+			</g>
+			<g id="Rectangle_20" data-name="Rectangle 20" transform="translate(1759 356)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="107" height="23" stroke="none" />
+				<rect x="0.5" y="0.5" width="106" height="22" fill="none" />
+			</g>
+			<g id="Rectangle_3" data-name="Rectangle 3" transform="translate(1064 600)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="89" height="20" stroke="none" />
+				<rect x="0.5" y="0.5" width="88" height="19" fill="none" />
+			</g>
+		</g>
+		<g id="Shunt">
+			<g id="SH18" transform="translate(791 251.672)">
+				<g id="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39" transform="translate(843.216 294.06)">
+				<g id="Pole-2" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-2" data-name="SH18" transform="translate(796 312.891)">
+				<g id="Pole-3" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-2" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-2" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-2" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-2" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-2" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-2" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-3" data-name="SH18" transform="translate(537.5 314.016)">
+				<g id="Pole-4" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-3" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-3" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-3" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-3" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-3" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-3" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-4" data-name="SH18" transform="translate(345.5 313.016)">
+				<g id="Pole-5" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-4" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-4" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-4" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-4" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-4" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-4" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-5" data-name="SH18" transform="translate(296.5 378.178)">
+				<g id="Pole-6" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-5" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-5" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-5" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-5" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-5" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-5" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39-2" data-name="SH39" transform="translate(613.216 357.583)">
+				<g id="Pole-7" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-2" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-2" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-2" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-2" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-2" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-2" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-3" data-name="SH39" transform="translate(612.716 422.742)">
+				<g id="Pole-8" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-3" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-3" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-3" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-3" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-3" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-3" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-4" data-name="SH39" transform="translate(371.605 357.583)">
+				<g id="Pole-9" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-4" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-4" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-4" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-4" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-4" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-4" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-5" data-name="SH39" transform="translate(497.216 482.742)">
+				<g id="Pole-10" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-5" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-5" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-5" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-5" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-5" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-5" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-6" data-name="SH18" transform="translate(822.5 501.5)">
+				<g id="Pole-11" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-6" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-6" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-6" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-6" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-6" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-6" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-7" data-name="SH18" transform="translate(897.016 379)">
+				<g id="Pole-12" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-7" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-7" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-7" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-7" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-7" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-7" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-8" data-name="SH18" transform="translate(904.5 438)">
+				<g id="Pole-13" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-8" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-8" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-8" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-8" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-8" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-8" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39-6" data-name="SH39" transform="translate(937.216 356.06)">
+				<g id="Pole-14" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-6" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-6" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-6" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-6" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-6" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-6" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-7" data-name="SH39" transform="translate(1001.716 482.06)">
+				<g id="Pole-15" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-7" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-7" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-7" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-7" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-7" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-7" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-9" data-name="SH18" transform="translate(1179.5 315.281)">
+				<g id="Pole-16" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-9" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-9" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-9" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-9" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-9" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-9" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-10" data-name="SH18" transform="translate(1189.5 378.835)">
+				<g id="Pole-17" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-10" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-10" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-10" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-10" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-10" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-10" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-11" data-name="SH18" transform="translate(1189.5 436.781)">
+				<g id="Pole-18" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-11" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-11" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-11" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-11" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-11" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-11" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39-8" data-name="SH39" transform="translate(1003.716 422.324)">
+				<g id="Pole-19" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-8" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-8" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-8" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-8" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-8" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-8" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-12" data-name="SH18" transform="translate(1331 501.656)">
+				<g id="Pole-20" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-12" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-12" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-12" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-12" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-12" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-12" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39-9" data-name="SH39" transform="translate(1259.439 358.337)">
+				<g id="Pole-21" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-9" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-9" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-9" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-9" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-9" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-9" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-10" data-name="SH39" transform="translate(1441.716 356.56)">
+				<g id="Pole-22" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-10" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-10" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-10" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-10" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-10" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-10" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-11" data-name="SH39" transform="translate(1445.716 421.56)">
+				<g id="Pole-23" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-11" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-11" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-11" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-11" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-11" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-11" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-12" data-name="SH39" transform="translate(1570.716 482.813)">
+				<g id="Pole-24" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-12" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-12" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-12" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-12" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-12" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-12" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-13" data-name="SH18" transform="translate(271.5 503.178)">
+				<g id="Pole-25" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-13" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-13" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-13" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-13" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-13" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-13" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39-13" data-name="SH39" transform="translate(1606.216 608.813)">
+				<g id="Pole-26" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-13" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-13" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-13" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-13" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-13" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-13" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-14" data-name="SH18" transform="translate(1203 565.781)">
+				<g id="Pole-27" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-14" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-14" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-14" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-14" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-14" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-14" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-15" data-name="SH18" transform="translate(1202 628.781)">
+				<g id="Pole-28" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-15" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-15" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-15" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-15" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-15" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-15" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39-14" data-name="SH39" transform="translate(1016.216 672.822)">
+				<g id="Pole-29" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-14" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-14" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-14" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-14" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-14" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-14" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-15" data-name="SH39" transform="translate(937.216 545.06)">
+				<g id="Pole-30" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-15" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-15" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-15" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-15" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-15" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-15" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-16" data-name="SH39" transform="translate(954.216 608.06)">
+				<g id="Pole-31" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-16" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-16" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-16" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-16" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-16" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-16" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-17" data-name="SH39" transform="translate(1018.216 734.56)">
+				<g id="Pole-32" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-17" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-17" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-17" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-17" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-17" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-17" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-16" data-name="SH18" transform="translate(821.5 565.5)">
+				<g id="Pole-33" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-16" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-16" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-16" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-16" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-16" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-16" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH18-17" data-name="SH18" transform="translate(902 628.781)">
+				<g id="Pole-34" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-17" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-17" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-17" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-17" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-17" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-17" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<g id="SH39-18" data-name="SH39" transform="translate(629.216 545.583)">
+				<g id="Pole-35" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-18" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-18" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-18" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-18" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-18" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-18" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-19" data-name="SH39" transform="translate(626.216 609.583)">
+				<g id="Pole-36" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-19" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-19" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-19" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-19" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-19" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-19" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH39-20" data-name="SH39" transform="translate(623.216 671.583)">
+				<g id="Pole-37" data-name="Pole" transform="translate(39.784 20.776)">
+					<line id="SH39Pole1-20" data-name="SH39Pole1" x1="0.284" y1="20.476" transform="translate(5.716 -12.836)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH39Pole2-20" data-name="SH39Pole2" y1="5" transform="translate(0 0.281) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_99-20" data-name="Path 99" d="M.913,16.343h0V16.8l7.06,4.34h10.39V6.279H.913V16.343" transform="translate(21.147 7.277)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH39Aspect3-20" data-name="SH39Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 15.407)" />
+				<ellipse id="SH39Aspect2-20" data-name="SH39Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 31.379, 21.438)" />
+				<ellipse id="SH39Aspect1-20" data-name="SH39Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 24.379, 17.438)" />
+			</g>
+			<g id="SH18-18" data-name="SH18" transform="translate(430 565.5)">
+				<g id="Pole-38" data-name="Pole" transform="translate(0 19.558)">
+					<line id="SH18Pole1-18" data-name="SH18Pole1" y1="14.719" transform="translate(0 0.942)" fill="none" stroke="#6c7091" stroke-width="2" />
+					<line id="SH18Pole2-18" data-name="SH18Pole2" y2="5" transform="translate(0 1.223) rotate(-90)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="2" />
+				</g>
+				<path id="Path_95-18" data-name="Path 95" d="M18.366,11.075v-.442l-4.64-2.709L11.3,6.279H.913V21.138H18.366V10.158" transform="translate(5.601 7.721)" fill="none" stroke="#6c7091" stroke-width="2" />
+				<ellipse id="SH18Aspect3-18" data-name="SH18Aspect3" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 15.768)" />
+				<ellipse id="SH18Aspect2-18" data-name="SH18Aspect2" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 8.036, 21.799)" />
+				<ellipse id="SH18Aspect1-18" data-name="SH18Aspect1" cx="2.981" cy="3" rx="2.981" ry="3" transform="matrix(1, -0.005, 0.005, 1, 15.12, 18.783)" />
+			</g>
+			<text id="SH160" transform="translate(791 261)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH160
+				</tspan>
+			</text>
+			<text id="SH149" transform="translate(863 336)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH149
+				</tspan>
+			</text>
+			<text id="SH105" transform="translate(1469 399)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH105
+				</tspan>
+			</text>
+			<text id="SH107" transform="translate(1309 381)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH107
+				</tspan>
+			</text>
+			<text id="SH194" transform="translate(342 323)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH194
+				</tspan>
+			</text>
+			<text id="SH189" transform="translate(420 388)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH189
+				</tspan>
+			</text>
+			<text id="SH192" transform="translate(530 323)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH192
+				</tspan>
+			</text>
+			<text id="SH103" transform="translate(1468 463)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH103
+				</tspan>
+			</text>
+			<text id="SH195" transform="translate(518 525)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH195
+				</tspan>
+			</text>
+			<text id="SH143" transform="translate(1023 524)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH143
+				</tspan>
+			</text>
+			<text id="SH101" transform="translate(1621 508)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH101
+				</tspan>
+			</text>
+			<text id="SH122" transform="translate(1329 512)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH122
+				</tspan>
+			</text>
+			<text id="SH198" transform="translate(267 512)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH198
+				</tspan>
+			</text>
+			<text id="SH140" transform="translate(819 511)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH140
+				</tspan>
+			</text>
+			<text id="SH180" transform="translate(423 574)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH180
+				</tspan>
+			</text>
+			<text id="SH121" transform="translate(1624 651)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH121
+				</tspan>
+			</text>
+			<text id="SH131" transform="translate(1037 777)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH131
+				</tspan>
+			</text>
+			<text id="SH196" transform="translate(293 386)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH196
+				</tspan>
+			</text>
+			<text id="SH147" transform="translate(985 378)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					SH147
+				</tspan>
+			</text>
+		</g>
+		<g id="Signal_SHunt" data-name="Signal &amp; SHunt">
+			<text id="S8_SH108" data-name="S8/SH108" transform="translate(1178 323)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S8/SH108
+				</tspan>
+			</text>
+			<text id="S6_SH106" data-name="S6/SH106" transform="translate(1177 388)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S6/SH106
+				</tspan>
+			</text>
+			<text id="S75_SH175" data-name="S75/SH175" transform="translate(630 715)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S75/SH175
+				</tspan>
+			</text>
+			<text id="S36_SH136" data-name="S36/SH136" transform="translate(893 637)" fill="#fff" font-size="9" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S36/SH136
+				</tspan>
+			</text>
+			<text id="S24_SH124" data-name="S24/SH124" transform="translate(1193 574)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S24/SH124
+				</tspan>
+			</text>
+			<text id="S39_SH139" data-name="S39/SH139" transform="translate(955 650)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S39/SH139
+				</tspan>
+			</text>
+			<text id="S38_SH138" data-name="S38/SH138" transform="translate(806 575)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S38/SH138
+				</tspan>
+			</text>
+			<text id="S77_SH177" data-name="S77/SH177" transform="translate(641 651)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S77/SH177
+				</tspan>
+			</text>
+			<text id="S26_SH126" data-name="S26/SH126" transform="translate(1195 638)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S26/SH126
+				</tspan>
+			</text>
+			<text id="S41_SH141" data-name="S41/SH141" transform="translate(944 587)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S41/SH141
+				</tspan>
+			</text>
+			<text id="S97_SH197" data-name="S97/SH197" transform="translate(620 588)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S97/SH197
+				</tspan>
+			</text>
+			<text id="S4_SH104" data-name="S4/SH104" transform="translate(1142 446)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S4/SH104
+				</tspan>
+			</text>
+			<text id="S42_SH142" data-name="S42/SH142" transform="translate(853 451)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S42/SH142
+				</tspan>
+			</text>
+			<text id="S44_SH144" data-name="S44/SH144" transform="translate(892 388)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S44/SH144
+				</tspan>
+			</text>
+			<text id="S93_SH193" data-name="S93/SH193" transform="translate(614 466)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S93/SH193
+				</tspan>
+			</text>
+			<text id="S45_SH145" data-name="S45/SH145" transform="translate(993 466)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S45/SH145
+				</tspan>
+			</text>
+			<text id="S46_SH146" data-name="S46/SH146" transform="translate(785 322)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S46/SH146
+				</tspan>
+			</text>
+			<text id="S91_SH191" data-name="S91/SH191" transform="translate(625 399)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S91/SH191
+				</tspan>
+			</text>
+			<text id="S37_SH137" data-name="S37/SH137" transform="translate(1027 714)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S37/SH137
+				</tspan>
+			</text>
+		</g>
+		<g id="Point">
+			<text id="_245B_N" data-name="245B    N" transform="translate(989 739)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					245B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_245A_N" data-name="245A    N" transform="translate(1007 652)" fill="#fff" font-size="9" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					245A
+				</tspan>
+				<tspan x="0" y="13" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_293A_N" data-name="293A    N" transform="translate(582 685)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					293A
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_N_293B" data-name="   N 293B" transform="translate(570 589)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					293B
+				</tspan>
+			</text>
+			<text id="_247B_R" data-name="247B    R" transform="translate(955 685)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					247B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					R
+				</tspan>
+			</text>
+			<text id="_207A_R" data-name="207A    R" transform="translate(1257 686)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					207A
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					R
+				</tspan>
+			</text>
+			<text id="_203B_N" data-name="203B    N" transform="translate(1593 622)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					203B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_205A_R" data-name="205A    R" transform="translate(1357 623)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					205A
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					R
+				</tspan>
+			</text>
+			<text id="_R_207B" data-name="   R 207B" transform="translate(1257 589)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					R
+				</tspan>
+				<tspan x="0" y="15">
+					207B
+				</tspan>
+			</text>
+			<text id="_R_247A" data-name="   R 247A" transform="translate(914 588)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					R
+				</tspan>
+				<tspan x="0" y="15">
+					247A
+				</tspan>
+			</text>
+			<text id="_249B_N" data-name="249B    N" transform="translate(866 622)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					249B
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_297A_R" data-name="297A    R" transform="translate(529 622)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					297A
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					R
+				</tspan>
+			</text>
+			<text id="_N_295" data-name=" N 295" transform="translate(457 590)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					295
+				</tspan>
+			</text>
+			<text id="_N_203A" data-name="  N 203A" transform="translate(1583 525)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					203A
+				</tspan>
+			</text>
+			<text id="_201A_R" data-name="201A    R" transform="translate(1548 559)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					201A
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					R
+				</tspan>
+			</text>
+			<text id="_202B_N" data-name="202B    N" transform="translate(1444 559)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					202B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_R_205B" data-name="   R 205B" transform="translate(1391 524)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					R
+				</tspan>
+				<tspan x="0" y="15">
+					205B
+				</tspan>
+			</text>
+			<text id="_N_249A" data-name="  N 249A" transform="translate(855 525)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					249A
+				</tspan>
+			</text>
+			<text id="_R_297B" data-name="   R 297B" transform="translate(482 524)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					R
+				</tspan>
+				<tspan x="0" y="15">
+					297B
+				</tspan>
+			</text>
+			<text id="_298A_N" data-name="298A    N" transform="translate(388 560)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					298A
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_N_298B" data-name="  N 298B" transform="translate(375 461)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					298B
+				</tspan>
+			</text>
+			<text id="_299B_N_" data-name="299B    N " transform="translate(290 560)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					299B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="30" />
+			</text>
+			<text id="_N_299A" data-name="  N 299A" transform="translate(296 461)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="14">
+					299A
+				</tspan>
+			</text>
+			<text id="_R_201B" data-name="   R 201B" transform="translate(1560 460)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					R
+				</tspan>
+				<tspan x="0" y="15">
+					201B
+				</tspan>
+			</text>
+			<text id="_N_202A" data-name="   N  202A" transform="translate(1439 460)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					202A
+				</tspan>
+			</text>
+			<text id="_204B_N" data-name="204B   N" transform="translate(1300 496)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					204B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_296B_R" data-name="296B    R" transform="translate(461 496)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					296B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					R
+				</tspan>
+			</text>
+			<text id="_206A_N" data-name="206A    N" transform="translate(1412 436)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					206A
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_N_204A" data-name="   N 204A" transform="translate(1296 401)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					204A
+				</tspan>
+			</text>
+			<text id="_208B_R" data-name="208B    R" transform="translate(1250 436)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					208B
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					R
+				</tspan>
+			</text>
+			<text id="_N_242A" data-name="  N 242A" transform="translate(957 400)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="15">
+					242A
+				</tspan>
+			</text>
+			<text id="_R_296A" data-name="   R 296A" transform="translate(491 401)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					R
+				</tspan>
+				<tspan x="0" y="15">
+					296A
+				</tspan>
+			</text>
+			<text id="_294_N" data-name="294    N" transform="translate(307 436)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					294
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_N_206B" data-name="  N 206B" transform="translate(1459 335)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="14">
+					206B
+				</tspan>
+			</text>
+			<text id="_242B_N" data-name="242B    N" transform="translate(981 495)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					242B
+				</tspan>
+				<tspan x="0" y="15" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_210_N" data-name="210   N" transform="translate(1278 336)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					210
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_244B_N" data-name="244B   N" transform="translate(948 435)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					244B
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_246A_N" data-name="246A    N" transform="translate(862 370)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					246A
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_N_244A" data-name="   N 244A" transform="translate(911 337)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="14">
+					244A
+				</tspan>
+			</text>
+			<text id="_N_288A" data-name="  N 288A" transform="translate(588 337)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="14">
+					288A
+				</tspan>
+			</text>
+			<text id="_288B_N" data-name="288B    N" transform="translate(590 436)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					288B
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_290_N" data-name="290  N" transform="translate(556 371)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					290
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+			<text id="_N_292B" data-name="  N 292B" transform="translate(381 336)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0" xml:space="preserve">
+					N
+				</tspan>
+				<tspan x="0" y="14">
+					292B
+				</tspan>
+			</text>
+			<text id="_292A_N" data-name="292A    N" transform="translate(387 435)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					292A
+				</tspan>
+				<tspan x="0" y="14" xml:space="preserve">
+					N
+				</tspan>
+			</text>
+		</g>
+		<g id="Group_1" data-name="Group 1" transform="translate(155.324 415.266)">
+			<line id="Line_3" data-name="Line 3" x1="133" transform="translate(7.176 6.982)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_4" data-name="Line 4" x1="133" transform="translate(7.176 4.982)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_4" data-name="Path 4" d="M3.182,12.467H9.858V0H3.182" transform="translate(-3.182 0)" fill="none" stroke="#fff" stroke-width="1" />
+		</g>
+		<g id="Group_2" data-name="Group 2" transform="translate(203.792 351.766)">
+			<line id="Line_3-2" data-name="Line 3" x1="133" transform="translate(7.176 6.982)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_4-2" data-name="Line 4" x1="133" transform="translate(7.176 4.982)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_4-2" data-name="Path 4" d="M3.182,12.467H9.858V0H3.182" transform="translate(-3.182 0)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="Line_1" data-name="Line 1" x2="133" transform="translate(861.208 381.734)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_2" data-name="Line 2" x2="133" transform="translate(861.208 383.734)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_1" data-name="Path 1" d="M9.858,0H3.182V12.467H9.858" transform="translate(991.526 376.248)" fill="none" stroke="#fff" stroke-width="1" />
+			<path id="Path_2" data-name="Path 2" d="M3.182,0H9.858V12.467H3.182" transform="translate(341.526 313.248)" fill="none" stroke="#fff" stroke-width="1" />
+			<path id="Path_3" data-name="Path 3" d="M9.858,0H3.182V12.467H9.858" transform="translate(1085.526 313.5)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="Line_5" data-name="Line 5" x2="133" transform="translate(1284.708 4.986)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_6" data-name="Line 6" x2="133" transform="translate(1284.708 6.986)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_5" data-name="Path 5" d="M9.858,0H3.182V12.467H9.858" transform="translate(1415.026 -0.5)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="Line_7" data-name="Line 7" x2="133" transform="translate(1102.208 4.986)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_8" data-name="Line 8" x2="133" transform="translate(1102.208 6.986)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_6" data-name="Path 6" d="M9.858,0H3.182V12.467H9.858" transform="translate(1232.526 -0.5)" fill="none" stroke="#fff" stroke-width="1" />
+		</g>
+		<text id="A" transform="translate(177 478)" fill="#fff" font-size="5" font-family="OpenSans, Open Sans">
+			<tspan x="0" y="0">
+				A
+			</tspan>
+		</text>
+		<g id="Signal_Poles" data-name="Signal Poles">
+			<line id="POLES3" x2="5" transform="matrix(1, -0.005, 0.005, 1, 629.776, 441.859)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<path id="POLES3-2" data-name="POLES3" d="M0,0,3.5.018" transform="matrix(1, -0.005, 0.005, 1, 631.91, 376.859)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-3" data-name="POLES3" x2="5" transform="translate(826.09 333.59) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-4" data-name="POLES3" x2="5" transform="translate(926.09 401.59) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<path id="POLES3-5" data-name="POLES3" d="M1.708.017,5,0" transform="translate(934.045 460.326) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<path id="POLES3-6" data-name="POLES3" d="M1.708.017,5,0" transform="translate(951.354 460.361) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-7" data-name="POLES3" x2="5" transform="matrix(1, -0.005, 0.005, 1, 1020.91, 441.859)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-8" data-name="POLES3" x2="5" transform="translate(1208.967 337.59) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-9" data-name="POLES3" x2="5" transform="translate(1218.967 401.59) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<path id="POLES3-10" data-name="POLES3" d="M1.451.019,5,0" transform="translate(1218.967 459.59) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<path id="POLES3-11" data-name="POLES3" d="M1.96.016,5,0" transform="translate(1236.967 459.547) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-12" data-name="POLES3" x2="5" transform="translate(1231.967 587.441) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+		</g>
+		<g id="POLES" transform="matrix(-1, 0.005, -0.005, -1, 1623.592, 413.474)">
+			<line id="POLES1" y2="13.952" transform="translate(7.972)" fill="none" stroke="#6c7091" stroke-width="1.5" />
+			<line id="POLES2" x2="7.851" transform="translate(0 13.883)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-13" data-name="POLES3" x2="5" transform="translate(393.788 -236.054) rotate(0.6)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-14" data-name="POLES3" x2="5" transform="translate(693.86 -234.482) rotate(0.6)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-15" data-name="POLES3" x2="5" transform="translate(773.401 -170.064) rotate(0.6)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-16" data-name="POLES3" x2="5" transform="translate(653.742 -209.692) rotate(-180)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-17" data-name="POLES3" x2="5" transform="translate(670.458 -146.873) rotate(-180)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-18" data-name="POLES3" x2="5" transform="translate(985.021 -270.878) rotate(-180)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-19" data-name="POLES3" x2="5" transform="translate(981.788 -209.242) rotate(-180)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-20" data-name="POLES3" x2="5" transform="translate(978.452 -145.259) rotate(-180)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES3-21" data-name="POLES3" x2="5" transform="translate(592.04 -275.285) rotate(-180)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+		</g>
+		<g id="POLES-2" data-name="POLES" transform="matrix(1, -0.005, 0.005, 1, 1765.455, 430.042)">
+			<line id="POLES1-2" data-name="POLES1" x2="0.002" y2="13.5" transform="translate(5.977 -1.01)" fill="none" stroke="#6c7091" stroke-width="1.5" />
+			<line id="POLES2-2" data-name="POLES2" x2="4" y2="0.021" transform="translate(1.98 12.469)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+			<line id="POLES2-3" data-name="POLES2" x2="4" y2="0.021" transform="translate(-16.02 12.374)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+		</g>
+		<g id="Signal">
+			<text id="S22" transform="translate(1786 576)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S22
+				</tspan>
+			</text>
+			<text id="S30" transform="translate(1622 387)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S30
+				</tspan>
+			</text>
+			<g id="SGS47" transform="matrix(-1, 0.005, -0.005, -1, 146.49, 585.08)">
+				<text id="SGS47Label" transform="translate(32.728 1.011) rotate(180)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+					<tspan x="0" y="0">
+						S99
+					</tspan>
+				</text>
+				<g id="SGS47Aspect1" transform="translate(8.109 13.192)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+					<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+				</g>
+				<g id="SGS47Aspect2" transform="translate(27.187 13.292)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+					<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+				</g>
+				<g id="POLES-3" data-name="POLES" transform="translate(0 14.996)">
+					<line id="POLES1-3" data-name="POLES1" x1="0.065" y2="16.584" transform="translate(-0.01)" fill="none" stroke="#6c7091" stroke-width="1.5" />
+					<line id="POLES2-4" data-name="POLES2" x2="7.851" transform="translate(0.091 6.976)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+					<line id="POLES2-5" data-name="POLES2" y1="0.016" x2="4.784" transform="translate(23.098 5.73)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+				</g>
+				<text id="A-2" data-name="A" transform="translate(17.327 31.171) rotate(-179.7)" fill="#fff" font-size="6" font-family="OpenSans, Open Sans">
+					<tspan x="0" y="0">
+						A
+					</tspan>
+				</text>
+			</g>
+			<g id="SGS47-2" data-name="SGS47" transform="translate(146.705 449.309) rotate(0.3)">
+				<g id="SGS47Aspect1-2" data-name="SGS47Aspect1" transform="translate(5.114 7.995)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+					<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+				</g>
+				<g id="SGS47Aspect2-2" data-name="SGS47Aspect2" transform="translate(24.192 7.895)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+					<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+				</g>
+				<g id="POLES-4" data-name="POLES" transform="translate(0 5.591)">
+					<line id="POLES1-4" data-name="POLES1" x1="0.065" y1="16.584" transform="translate(0 0)" fill="none" stroke="#6c7091" stroke-width="1.5" />
+					<line id="POLES2-6" data-name="POLES2" y1="0.034" x2="4.773" transform="translate(0.101 9.574)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+					<line id="POLES2-7" data-name="POLES2" x2="4.784" y2="0.016" transform="translate(20.108 10.854)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+					<line id="POLES2-8" data-name="POLES2" x2="4.784" y2="0.016" transform="translate(39.107 10.713)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+				</g>
+				<g id="SGS47Aspect2-3" data-name="SGS47Aspect2" transform="translate(43.27 7.795)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+					<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+				</g>
+				<text id="S98_C98" data-name="S98/C98" transform="translate(8.319 4.647) rotate(-0.3)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+					<tspan x="0" y="0">
+						S98/C98
+					</tspan>
+				</text>
+			</g>
+			<g id="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 628, 621.348)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-2" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 631, 557.348)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-3" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 1018.09, 685.348)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-4" data-name="SGS3Aspect1" transform="translate(1245.876 660.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-5" data-name="SGS3Aspect1" transform="translate(945.799 659.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-6" data-name="SGS3Aspect1" transform="translate(865.921 596.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-7" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 956.045, 620.079)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-8" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 939, 557.348)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-9" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 625.09, 683)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+		</g>
+		<g id="POLES-5" data-name="POLES" transform="matrix(-1, 0.005, -0.005, -1, 1789.592, 601.474)">
+			<line id="POLES1-5" data-name="POLES1" y2="13.952" transform="translate(7.972)" fill="none" stroke="#6c7091" stroke-width="1.5" />
+			<line id="POLES2-9" data-name="POLES2" x2="7.851" transform="translate(0 13.883)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+		</g>
+		<g id="Signal_Calling" data-name="Signal &amp; Calling">
+			<text id="S5_C5" data-name="S5/C5" transform="translate(1737 461)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S5/C5
+				</tspan>
+			</text>
+			<text id="CO" transform="translate(154 478)" fill="#fff" font-size="5" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					CO
+				</tspan>
+			</text>
+			<text id="CO-2" data-name="CO" transform="translate(1757 431)" fill="#fff" font-size="6" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					CO
+				</tspan>
+			</text>
+			<text id="S1_C1" data-name="S1/C1" transform="translate(1852 584)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					S1/C1
+				</tspan>
+			</text>
+		</g>
+		<g id="Signal-2" data-name="Signal">
+			<g id="SGS47-3" data-name="SGS47" transform="translate(1896 571.695) rotate(179.7)">
+				<g id="SGS47Aspect1-3" data-name="SGS47Aspect1" transform="translate(5.114 0)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+					<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+				</g>
+				<g id="SGS47Aspect2-4" data-name="SGS47Aspect2" transform="translate(24.192 0.1)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+					<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+				</g>
+				<g id="POLES-6" data-name="POLES" transform="translate(0 0.82)">
+					<line id="POLES1-6" data-name="POLES1" x1="0.065" y2="16.584" transform="translate(0 0)" fill="none" stroke="#6c7091" stroke-width="1.5" />
+					<line id="POLES2-10" data-name="POLES2" x2="4.773" y2="0.034" transform="translate(0.101 6.976)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+					<line id="POLES2-11" data-name="POLES2" y1="0.016" x2="4.784" transform="translate(20.108 5.714)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+					<line id="POLES2-12" data-name="POLES2" y1="0.016" x2="4.784" transform="translate(39.107 5.855)" fill="none" stroke="#6c7091" stroke-linecap="round" stroke-width="1.5" />
+				</g>
+				<g id="SGS47Aspect2-5" data-name="SGS47Aspect2" transform="translate(43.27 0.2)" fill="none" stroke="#6c7091" stroke-width="1.5">
+					<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+					<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+				</g>
+				<text id="A-3" data-name="A" transform="translate(31.907 17.862) rotate(-179.7)" fill="#fff" font-size="6" font-family="OpenSans, Open Sans">
+					<tspan x="0" y="0">
+						A
+					</tspan>
+				</text>
+				<text id="CO-3" data-name="CO" transform="translate(16.907 17.783) rotate(-179.7)" fill="#fff" font-size="6" font-family="OpenSans, Open Sans">
+					<tspan x="0" y="0">
+						CO
+					</tspan>
+				</text>
+			</g>
+			<g id="SGS2Aspect1" transform="matrix(1, -0.005, 0.005, 1, 1734.352, 434.12)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-10" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 614.866, 435.348)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-11" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 617, 370.348)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-12" data-name="SGS3Aspect1" transform="translate(840.921 342.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-13" data-name="SGS3Aspect1" transform="translate(940.921 410.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-14" data-name="SGS3Aspect1" transform="translate(946.876 468.815) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-15" data-name="SGS3Aspect1" transform="translate(963.876 468.815) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-16" data-name="SGS3Aspect1" transform="matrix(1, -0.005, 0.005, 1, 1006, 435.348)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-17" data-name="SGS3Aspect1" transform="translate(1223.799 345.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-18" data-name="SGS3Aspect1" transform="translate(1233.799 409.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-19" data-name="SGS3Aspect1" transform="translate(1231.799 467.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-20" data-name="SGS3Aspect1" transform="translate(1249.921 467.078) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS3Aspect1-21" data-name="SGS3Aspect1" transform="translate(1246.799 595.93) rotate(-179.7)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS2Aspect1-2" data-name="SGS2Aspect1" transform="matrix(-1, 0.005, -0.005, -1, 1637.819, 406.396)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+			<g id="SGS2Aspect1-3" data-name="SGS2Aspect1" transform="matrix(1, -0.005, 0.005, 1, 1753.228, 434.12)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" stroke="none" />
+				<ellipse cx="7.5" cy="7.5" rx="6.75" ry="6.75" fill="none" />
+			</g>
+			<g id="SGS2Aspect1-4" data-name="SGS2Aspect1" transform="matrix(-1, 0.005, -0.005, -1, 1803.819, 594.396)" fill="none" stroke="#6c7091" stroke-width="1.5">
+				<circle cx="7.5" cy="7.5" r="7.5" stroke="none" />
+				<circle cx="7.5" cy="7.5" r="6.75" fill="none" />
+			</g>
+		</g>
+		<text id="Stn_Name" data-name="Stn Name" transform="translate(864 118)" fill="#fff" font-size="30" font-family="OpenSans, Open Sans">
+			<tspan x="0" y="0">
+				New Ateli jn. (Coming Soon)
+			</tspan>
+			<tspan x="0" y="41" xml:space="preserve">
+				(AELN)
+			</tspan>
+		</text>
+		<g id="Group_3" data-name="Group 3" transform="translate(288.429 602.878)">
+			<line id="Line_3-3" data-name="Line 3" x1="133.442" transform="translate(7.176 6.982)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_4-3" data-name="Line 4" x1="133.442" transform="translate(7.176 4.982)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_4-3" data-name="Path 4" d="M3.182,12.467h6.7V0h-6.7" transform="translate(-3.182 0)" fill="none" stroke="#fff" stroke-width="1" />
+		</g>
+		<g id="Group_4" data-name="Group 4">
+			<text id="_1st" data-name="1st" transform="translate(109 613)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					1st
+				</tspan>
+			</text>
+			<text id="_2nd" data-name="2nd" transform="translate(107 637)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					2nd
+				</tspan>
+			</text>
+			<text id="_3rd" data-name="3rd" transform="translate(108 664)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					3rd
+				</tspan>
+			</text>
+			<text id="Memo" transform="translate(311 652)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Memo
+				</tspan>
+			</text>
+			<text id="Memo-2" data-name="Memo" transform="translate(1244 748)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Memo
+				</tspan>
+			</text>
+			<text id="_1st-2" data-name="1st" transform="translate(1750 341)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					1st
+				</tspan>
+			</text>
+			<text id="_2nd-2" data-name="2nd" transform="translate(1749 318)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					2nd
+				</tspan>
+			</text>
+			<text id="_3rd-2" data-name="3rd" transform="translate(1750 291)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					3rd
+				</tspan>
+			</text>
+			<line id="Line_9" data-name="Line 9" y2="22" transform="translate(1767.5 356.5)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_10" data-name="Line 10" y2="22" transform="translate(1858.5 356)" fill="none" stroke="#707070" stroke-width="1" />
+			<text id="Memo-3" data-name="Memo" transform="translate(147 361)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Memo
+				</tspan>
+			</text>
+			<text id="Memo-4" data-name="Memo" transform="translate(199 278)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Memo
+				</tspan>
+			</text>
+		</g>
+		<g id="Z00000">
+			<text id="Z0000156" transform="translate(1093 360)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000156
+				</tspan>
+			</text>
+			<text id="Z0000063" transform="translate(1093 485)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000063
+				</tspan>
+			</text>
+			<text id="Z0000096" transform="translate(1093 613)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000096
+				</tspan>
+			</text>
+			<text id="Z0000222" transform="translate(1093 676)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000222
+				</tspan>
+			</text>
+			<text id="Z0000004" transform="translate(691 362.104)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000004
+				</tspan>
+			</text>
+			<text id="Z0000151" transform="translate(691 424.104)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000151
+				</tspan>
+			</text>
+		</g>
+		<g id="Bitcomm_logo" transform="translate(45.083 39.653)">
+			<g id="Rectangle_4-2" data-name="Rectangle 4" transform="translate(35.597 0.608) rotate(45)">
+				<path id="Path_1-2" data-name="Path 1" d="M50.9,50.9,1.888,49.625.608.608l49.017,1.28Z" fill="#0e86d4" />
+				<path id="Path_2-2" data-name="Path 2" d="M1.121,1.121,2.375,49.137l48.016,1.254L49.137,2.375,1.121,1.121M.094.094,50.112,1.4l1.306,50.018L1.4,50.112Z" fill="#0e86d4" />
+			</g>
+			<g id="Ellipse_2" data-name="Ellipse 2" transform="translate(19.204 19.74)" fill="none" stroke="#fff" stroke-width="5">
+				<ellipse cx="17.799" cy="18.753" rx="17.799" ry="18.753" stroke="none" />
+				<ellipse cx="17.799" cy="18.753" rx="15.299" ry="16.253" fill="none" />
+			</g>
+			<path id="Path_1-3" data-name="Path 1" d="M.568-1.031h0s8.95,7.449,10.283,9.924a47.609,47.609,0,0,1,2.316,5.086" transform="translate(9.332 30.117)" fill="none" stroke="#fff" stroke-width="5" />
+			<g id="Path_2-3" data-name="Path 2" transform="translate(16.001 22.307) rotate(45)">
+				<path id="Path_91" data-name="Path 91" d="M.143,5.135.455.013l14.3.812,2.286,4.348L15.152,5.2Z" transform="translate(0.54 0.509)" fill="#0e86d4" />
+				<path id="Path_92" data-name="Path 92" d="M1.448,1.027,1.2,5.165l14.469.058L16.8,5.209,15,1.8,1.448,1.027M.542.015,15.58.869l2.778,5.284-2.639.033L.171,6.123Z" fill="#0e86d4" />
+			</g>
+			<g id="Path_3-2" data-name="Path 3" transform="matrix(0.616, -0.788, 0.788, 0.616, 7.56, 30.314)">
+				<path id="Path_93" data-name="Path 93" d="M3.893.459-.014.5,0,0,3.893.366Z" transform="translate(0.473 0.526)" fill="#fff" />
+				<path id="Path_94" data-name="Path 94" d="M.013,0,4.85.455v1l-4.892.051Z" fill="#fff" />
+			</g>
+			<path id="Path_4-4" data-name="Path 4" d="M44,44" transform="translate(-3.719 31.506)" fill="none" stroke="#707070" stroke-width="1" />
+			<g id="Group_2-2" data-name="Group 2" transform="translate(0 1.481)">
+				<line id="Line_2-2" data-name="Line 2" x2="3.747" y2="3.948" transform="translate(0 31.584)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_3-4" data-name="Line 3" x2="3.747" y2="3.948" transform="translate(4.684 26.649)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_4-4" data-name="Line 4" x2="3.747" y2="3.948" transform="translate(9.368 21.714)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_5-2" data-name="Line 5" x2="3.747" y2="3.948" transform="translate(13.115 17.766)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_6-2" data-name="Line 6" x2="3.747" y2="3.948" transform="translate(17.799 12.831)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_7-2" data-name="Line 7" x2="3.747" y2="3.948" transform="translate(22.482 7.896)" fill="none" stroke="#707070" stroke-width="1" />
+				<line id="Line_8-2" data-name="Line 8" x2="3.747" y2="3.948" transform="translate(30.913)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_9-2" data-name="Line 9" x2="3.747" y2="3.948" transform="translate(22.482 7.896)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_10-2" data-name="Line 10" x2="3.747" y2="3.948" transform="translate(26.23 3.948)" fill="none" stroke="#0e86d4" stroke-width="1" />
+			</g>
+			<g id="Group_3-2" data-name="Group 3" transform="translate(69.789) rotate(90)">
+				<line id="Line_2-3" data-name="Line 2" x2="3.948" y2="3.747" transform="translate(0 29.977)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_3-5" data-name="Line 3" x2="3.948" y2="3.747" transform="translate(4.935 25.293)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_4-5" data-name="Line 4" x2="3.948" y2="3.747" transform="translate(9.87 20.609)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_5-3" data-name="Line 5" x2="3.948" y2="3.747" transform="translate(13.818 16.862)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_6-3" data-name="Line 6" x2="3.948" y2="3.747" transform="translate(18.753 12.178)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_7-3" data-name="Line 7" x2="3.948" y2="3.747" transform="translate(23.688 7.494)" fill="none" stroke="#707070" stroke-width="1" />
+				<line id="Line_8-3" data-name="Line 8" x2="3.948" y2="3.747" transform="translate(32.571)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_9-3" data-name="Line 9" x2="3.948" y2="3.747" transform="translate(23.688 7.494)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_10-3" data-name="Line 10" x2="3.948" y2="3.747" transform="translate(27.636 3.747)" fill="none" stroke="#0e86d4" stroke-width="1" />
+			</g>
+			<g id="Group_4-2" data-name="Group 4" transform="translate(70.258 73.532) rotate(180)">
+				<line id="Line_2-4" data-name="Line 2" x2="3.747" y2="3.948" transform="translate(0 32.571)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_3-6" data-name="Line 3" x2="3.747" y2="3.948" transform="translate(4.684 27.636)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_4-6" data-name="Line 4" x2="3.747" y2="3.948" transform="translate(8.431 22.701)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_5-4" data-name="Line 5" x2="3.747" y2="3.948" transform="translate(13.115 17.766)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_6-4" data-name="Line 6" x2="3.747" y2="3.948" transform="translate(17.799 12.831)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_8-4" data-name="Line 8" x2="3.747" y2="3.948" transform="translate(30.913)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_9-4" data-name="Line 9" x2="3.747" y2="3.948" transform="translate(22.482 7.896)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_10-4" data-name="Line 10" x2="3.747" y2="3.948" transform="translate(26.23 3.948)" fill="none" stroke="#0e86d4" stroke-width="1" />
+			</g>
+			<g id="Group_5" data-name="Group 5" transform="translate(34.192 37.506) rotate(90)">
+				<line id="Line_2-5" data-name="Line 2" x2="3.948" y2="3.747" transform="translate(0 29.977)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_3-7" data-name="Line 3" x2="3.948" y2="3.747" transform="translate(4.935 25.293)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_4-7" data-name="Line 4" x2="3.948" y2="3.747" transform="translate(9.87 20.609)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_5-5" data-name="Line 5" x2="3.948" y2="3.747" transform="translate(13.818 16.862)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_6-5" data-name="Line 6" x2="3.948" y2="3.747" transform="translate(18.753 12.178)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_7-4" data-name="Line 7" x2="3.948" y2="3.747" transform="translate(23.688 7.494)" fill="none" stroke="#707070" stroke-width="1" />
+				<line id="Line_8-5" data-name="Line 8" x2="3.948" y2="3.747" transform="translate(32.571)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_9-5" data-name="Line 9" x2="3.948" y2="3.747" transform="translate(23.688 7.494)" fill="none" stroke="#0e86d4" stroke-width="1" />
+				<line id="Line_10-5" data-name="Line 10" x2="3.948" y2="3.747" transform="translate(27.636 3.747)" fill="none" stroke="#0e86d4" stroke-width="1" />
+			</g>
+		</g>
+		<g id="path16">
+			<text id="Memo-5" data-name="Memo" transform="translate(1005 200)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Memo
+				</tspan>
+			</text>
+			<g id="Rectangle_22" data-name="Rectangle 22" transform="translate(1042 188)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="15" height="15" stroke="none" />
+				<rect x="0.5" y="0.5" width="14" height="14" fill="none" />
+			</g>
+			<text id="Memo-6" data-name="Memo" transform="translate(688 200)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Memo
+				</tspan>
+			</text>
+			<g id="Rectangle_21" data-name="Rectangle 21" transform="translate(725 188)" fill="none" stroke="#707070" stroke-width="1">
+				<rect width="15" height="15" stroke="none" />
+				<rect x="0.5" y="0.5" width="14" height="14" fill="none" />
+			</g>
+			<path id="Path_16" data-name="Path 16" d="M0,0V12" transform="translate(1049.5 189.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-2" data-name="Path 16" d="M10.99,0H0" transform="translate(1044 195.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<line id="Line_11" data-name="Line 11" x2="133" transform="translate(887 292.752)" fill="none" stroke="#707070" stroke-width="1" />
+			<line id="Line_12" data-name="Line 12" x2="133" transform="translate(887 294.752)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_7" data-name="Path 7" d="M9.858,0H3.182V12.467H9.858" transform="translate(1017.318 287.266)" fill="none" stroke="#fff" stroke-width="1" />
+			<line id="Line_4-8" data-name="Line 4" x1="134.532" transform="translate(655.968 292.5)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_4-5" data-name="Path 4" d="M3.182,12.467H9.858V0H3.182" transform="translate(645.609 287.766)" fill="none" stroke="#fff" stroke-width="1" />
+			<path id="Path_16-3" data-name="Path 16" d="M10.99,0H0" transform="translate(727 195.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-4" data-name="Path 16" d="M0,0V12" transform="translate(732.5 189.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<text id="Z0000059" transform="translate(694 677.052)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000059
+				</tspan>
+			</text>
+			<text id="Z0000194" transform="translate(691 486.052)" fill="#966363" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					Z0000194
+				</tspan>
+			</text>
+			<path id="Path_16-5" data-name="Path 16" d="M0,0V17.9" transform="translate(681 663.052)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-6" data-name="Path 16" d="M0,0V17.9" transform="translate(678 473.052)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-7" data-name="Path 16" d="M0,0V17.9" transform="translate(1077 601)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-8" data-name="Path 16" d="M0,0V17.9" transform="translate(1077 664.052)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-9" data-name="Path 16" d="M0,0V17.9" transform="translate(678 350.104)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-10" data-name="Path 16" d="M0,0V17.9" transform="translate(678 411.104)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-11" data-name="Path 16" d="M0,0V12" transform="translate(1288.5 737.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-12" data-name="Path 16" d="M10.99,0H0" transform="translate(1283 743.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-13" data-name="Path 16" d="M0,0V17.9" transform="translate(1080 348)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-14" data-name="Path 16" d="M0,0V17.9" transform="translate(1080 472)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-15" data-name="Path 16" d="M0,0V12" transform="translate(243.5 267.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-16" data-name="Path 16" d="M10.99,0H0" transform="translate(238 273.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-17" data-name="Path 16" d="M0,0V12" transform="translate(355.5 641.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-18" data-name="Path 16" d="M10.99,0H0" transform="translate(350 647.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<line id="Line_13" data-name="Line 13" x1="134.532" transform="translate(655.968 294.5)" fill="none" stroke="#707070" stroke-width="1" />
+			<path id="Path_16-19" data-name="Path 16" d="M0,0V12" transform="translate(669 666)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-20" data-name="Path 16" d="M0,0V12" transform="translate(902 666)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-21" data-name="Path 16" d="M0,0V12" transform="translate(1001 666)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-22" data-name="Path 16" d="M0,0V12" transform="translate(1062 666)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-23" data-name="Path 16" d="M0,0V12" transform="translate(1062 666)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-24" data-name="Path 16" d="M0,0V12" transform="translate(1202 666)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-25" data-name="Path 16" d="M0,0V12" transform="translate(1782 603)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-26" data-name="Path 16" d="M0,0V12" transform="translate(1652.5 603)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-27" data-name="Path 16" d="M0,0V12" transform="translate(1330 602)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-28" data-name="Path 16" d="M0,0V12" transform="translate(1203 603)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-29" data-name="Path 16" d="M0,0V12" transform="translate(1000 602)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-30" data-name="Path 16" d="M0,0V12" transform="translate(901.5 602)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-31" data-name="Path 16" d="M0,0V12" transform="translate(821.5 603)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-32" data-name="Path 16" d="M0,0V12" transform="translate(671.5 603)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-33" data-name="Path 16" d="M0,0V12" transform="translate(430.052 602.878)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-34" data-name="Path 16" d="M0,0V12" transform="translate(1644.5 539.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-35" data-name="Path 16" d="M0,0V12" transform="translate(1580.5 539.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-36" data-name="Path 16" d="M0,0V12" transform="translate(1415 540)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-37" data-name="Path 16" d="M0,0V12" transform="translate(1501 603)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-38" data-name="Path 16" d="M0,0V12" transform="translate(1500.481 539)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-39" data-name="Path 16" d="M0,0V12" transform="translate(1331 539)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-40" data-name="Path 16" d="M0,0V12" transform="translate(983 539)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-41" data-name="Path 16" d="M0,0V12" transform="translate(822 539.219)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-42" data-name="Path 16" d="M0,0V12" transform="translate(674.5 538.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-43" data-name="Path 16" d="M0,0V12" transform="translate(572 538.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-44" data-name="Path 16" d="M0,0V12" transform="translate(1501 603)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-45" data-name="Path 16" d="M0,0V12" transform="translate(568.5 602.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-46" data-name="Path 16" d="M0,0V12" transform="translate(430.052 602.878)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-47" data-name="Path 16" d="M0,0V12" transform="translate(450.052 538.696)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-48" data-name="Path 16" d="M0,0V12" transform="translate(349.5 540)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-49" data-name="Path 16" d="M0,0V12" transform="translate(271.5 540)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-50" data-name="Path 16" d="M0,0V12" transform="translate(269.5 476)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-51" data-name="Path 16" d="M0,0V12" transform="translate(346.5 476)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-52" data-name="Path 16" d="M0,0V12" transform="translate(146.5 475.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-53" data-name="Path 16" d="M0,0V12" transform="translate(146.5 540)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-54" data-name="Path 16" d="M0,0V12" transform="translate(24.5 475.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-55" data-name="Path 16" d="M0,0V12" transform="translate(22 540)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-56" data-name="Path 16" d="M0,0V12" transform="translate(1896 540)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-57" data-name="Path 16" d="M0,0V12" transform="translate(1896 476)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-58" data-name="Path 16" d="M0,0V12" transform="translate(1616.5 475.256)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-59" data-name="Path 16" d="M0,0V12" transform="translate(1500.5 475.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-60" data-name="Path 16" d="M0,0V12" transform="translate(1382.5 475.054)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-61" data-name="Path 16" d="M0,0V12" transform="translate(1277.5 475.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-62" data-name="Path 16" d="M0,0V12" transform="translate(1189.5 475.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-63" data-name="Path 16" d="M0,0V12" transform="translate(1047.5 475)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-64" data-name="Path 16" d="M0,0V12" transform="translate(904.5 475.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-65" data-name="Path 16" d="M0,0V12" transform="translate(543 475.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-66" data-name="Path 16" d="M0,0V12" transform="translate(408.632 475)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-67" data-name="Path 16" d="M0,0V12" transform="translate(1896 416)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-68" data-name="Path 16" d="M0,0V12" transform="translate(1771 416)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-69" data-name="Path 16" d="M0,0V12" transform="translate(1615.5 416)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-70" data-name="Path 16" d="M0,0V12" transform="translate(1491.49 416)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-71" data-name="Path 16" d="M0,0V12" transform="translate(1276 415.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-72" data-name="Path 16" d="M0,0V12" transform="translate(1189.5 415.888)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-73" data-name="Path 16" d="M0,0V12" transform="translate(990.5 415.888)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-74" data-name="Path 16" d="M0,0V12" transform="translate(896.5 416)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-75" data-name="Path 16" d="M0,0V12" transform="translate(658 415.264)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-76" data-name="Path 16" d="M0,0V12" transform="translate(545.5 415.264)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-77" data-name="Path 16" d="M0,0V12" transform="translate(412.5 416)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-78" data-name="Path 16" d="M0,0V12" transform="translate(296.5 415.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-79" data-name="Path 16" d="M0,0V12" transform="translate(1487.5 351.477)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-80" data-name="Path 16" d="M0,0V12" transform="translate(1305.176 352)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-81" data-name="Path 16" d="M0,0V12" transform="translate(1179 351.781)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-82" data-name="Path 16" d="M0,0V12" transform="translate(983 350.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-83" data-name="Path 16" d="M0,0V12" transform="translate(894.5 350.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-84" data-name="Path 16" d="M0,0V12" transform="translate(796.5 349.781)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-85" data-name="Path 16" d="M0,0V12" transform="translate(658 351)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-86" data-name="Path 16" d="M0,0V12" transform="translate(537.5 350.251)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-87" data-name="Path 16" d="M0,0V12" transform="translate(416.5 350.251)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-88" data-name="Path 16" d="M0,0V12" transform="translate(345.5 351)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-89" data-name="Path 16" d="M0,0V12" transform="translate(886 287.477)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-90" data-name="Path 16" d="M0,0V12" transform="translate(191.5 350.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-91" data-name="Path 16" d="M10.99,0H0" transform="translate(186 356.5)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-92" data-name="Path 16" d="M0,0V12" transform="translate(791 288.563)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-93" data-name="Path 16" d="M0,0V12" transform="translate(1064 729)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-94" data-name="Path 16" d="M0,0V12" transform="translate(1406.49 416)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+			<path id="Path_16-95" data-name="Path 16" d="M0,0V12" transform="translate(1049.5 415.888)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2" />
+		</g>
+		<g id="Siding_Label" data-name="Siding Label">
+			<text id="UP_HOT_AXLE_SIDING" data-name="UP HOT AXLE SIDING" transform="translate(1079 750)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					UP HOT AXLE SIDING
+				</tspan>
+			</text>
+			<text id="DL_SIDING" data-name="DL SIDING" transform="translate(1528 373)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					DL SIDING
+				</tspan>
+			</text>
+			<text id="MACHINE_SIDING" data-name="MACHINE SIDING" transform="translate(1348 373)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					MACHINE SIDING
+				</tspan>
+			</text>
+			<text id="DN_HOT_AXLE_SIDING" data-name="DN HOT AXLE SIDING" transform="translate(905 308)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					DN HOT AXLE SIDING
+				</tspan>
+			</text>
+			<text id="DN_HOT_AXLE_SIDING-2" data-name="DN HOT AXLE SIDING" transform="translate(678 308)" fill="#fff" font-size="11" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					DN HOT AXLE SIDING
+				</tspan>
+			</text>
+			<text id="EL_DL_WAITING_TRACK_SIDING" data-name="EL/DL WAITING TRACK SIDING" transform="translate(168 435)" fill="#fff" font-size="9" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					EL/DL WAITING TRACK SIDING
+				</tspan>
+			</text>
+			<text id="MACHINE_SIDING-2" data-name="MACHINE SIDING" transform="translate(332 623)" fill="#fff" font-size="9" font-family="OpenSans, Open Sans">
+				<tspan x="0" y="0">
+					MACHINE SIDING
+				</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
