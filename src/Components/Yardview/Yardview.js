@@ -10,7 +10,7 @@ function Yardview() {
   console.log('liveDataaaa', liveDataaaa)
   return (
     <div className="yardview-main-component">
-      <Header label={'Yardview'} />
+      {/* <Header label={'Yardview'} /> */}
       <div className='dummy-svg-container'>
         <div className='dummy-svg'>Coming soon...</div>
         {/* <ATELI /> */}

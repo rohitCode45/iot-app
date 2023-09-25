@@ -55,7 +55,7 @@ const DataTable = ({ data, columns, id, loading }) => {
             <thead>
               {headerGroups.map((headerGroup) => (
                 <tr {...headerGroup.getHeaderGroupProps()}>
-                  {headerGroup.headers.map((column) => {
+                  {headerGroup.headers.map((column, i) => {
                     const valueId = column.id
                     return (
                       <th  {...column.getHeaderProps()} >

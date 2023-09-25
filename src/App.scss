@@ -15,8 +15,10 @@ body {
   width: 100%;
 }
 .main-app {
+  display: flex;
   height: 100%;
   width: 100%;
+  flex-direction: column;
 
   .main-app-container {
     display: flex;

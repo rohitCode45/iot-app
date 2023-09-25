@@ -13,6 +13,21 @@ const ASSET_TYPES = [
   "RLY_STATUS",
 ];
 
+export const ASSET_TYPE_LABEL_MAP = {
+  "SI_SIGNAL": "SIGNAL",
+  "SI_POINT": "POINT",
+  "SI_ROUTE": 'ROUTE',
+  "SI_TRKSEC": "TRKSEC",
+  "SI_LCGATE": "LCGATE",
+  "EI_FIU": "FIU",
+  "EI_DAC": "DAC",
+  "EI_L2SW": "L2SW",
+  "EI_VLC": "VLC",
+  "EI_IOM": "IOM",
+  "EI_IFC": "IOM",
+  "RLY_STATUS": "RLY STATUS",
+}
+
 export const sidebarData = [
   {
     id: 0,
@@ -21,13 +36,13 @@ export const sidebarData = [
   },
   {
     id: 1,
-    label: "Component Types",
+    label: "Grid View",
     parentUrl: "/live-telemetry",
     children: ASSET_TYPES.map((assetType, i) => {
       let number = i + 1
       return {
         id: 1 + '_' + number,
-        label: assetType,
+        label: ASSET_TYPE_LABEL_MAP[assetType],
         childUrl: '/' + assetType,
       }
     }),

@@ -70,7 +70,7 @@ function App() {
   return (
     <Router>
       <div id={"main-page-component"} className="App main-app">
-        {/* <Header/> */}
+        <Header label='label' />
         {liveConstant === 1 && <PageLoader />}
         <div className="main-app-container">
           <Sidebar />

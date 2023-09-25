@@ -20,6 +20,37 @@ function getTableDataFromTypeMap(liveDataMap, type) {
   }
   return tableData
 }
+const CardView = ({ cardKeys, data }) => {
+  const [cardNameFilter, setCardNameFilter] = useState('')
+
+  return (
+    <div className="telemetryCardConatiner">
+      <div className="cardContainerHeader">
+
+        <input placeholder={`Search RLY_STATUS`} className='filterInput' value={cardNameFilter} onChange={(e) => { setCardNameFilter(e.target.value) }} />
+      </div>
+      <div className="CardConatiner">
+        {data.map((cardData, i) => {
+          const { [cardKeys.labelKey]: cardLabel, [cardKeys.valueKey]: cardValue } = cardData
+          if (cardLabel.toUpperCase().includes(cardNameFilter.toUpperCase())) {
+            return (
+              <div key={i} title={cardValue} style={{ background: cardValue.includes('ON') ? '#bff1bf' : '' }} className="telemetryCard">
+                <span className="cardLabel">{cardLabel}</span>
+                {/* <span className="CardValue">{cardValue}</span> */}
+              </div>
+            )
+          } else {
+            return <span></span>
+          }
+
+        })}
+
+
+      </div>
+    </div>
+
+  )
+}
 
 function LiveTemetry() {
   const navigate = useNavigate()
@@ -29,14 +60,14 @@ function LiveTemetry() {
   console.log(location.state)
 
   const telemetryPage = telemetryPageInfo?.[location?.state?.childUrl];
-useEffect(()=>{
-  if(!location.state){
-    navigate('/')
-  }
-},[])
+  useEffect(() => {
+    if (!location.state) {
+      navigate('/')
+    }
+  }, [])
   return (
     <div className="live-telemetry-main-component">
-      <Header label={telemetryPage?.Heading ?? "Telemetry"} />
+      {/* <Header label={telemetryPage?.Heading ?? "Telemetry"} /> */}
       <div className="tableInfoContainer">
         <div className="liveInfoConatiner">
           <div style={{ color: liveConstantMap[liveConstant].color }} className="liveStatusIcon">{liveConstantMap[liveConstant].icon}</div>
@@ -46,14 +77,32 @@ useEffect(()=>{
         </div>
         <div className="countInfo">Total assets : {getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id).length}</div>
       </div>
+
+
       <div className="telemetry-table-container cardTheme">
-        <DataTable
-          id={telemetryPage?.id ?? ""}
-          columns={telemetryPage?.columns ?? []}
-          data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
-          loading={false}
-        />
+        {
+          telemetryPage.columns !== null && (
+            <DataTable
+              id={telemetryPage?.id ?? ""}
+              columns={telemetryPage?.columns ?? []}
+              data={telemetryPage?.dummyData ?? []}
+              // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
+              loading={false}
+            />
+          )
+        }
+        {
+          telemetryPage.columns === null && (
+            <CardView
+              cardKeys={telemetryPage.cardKeys}
+              // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
+              data={telemetryPage?.dummyData ?? []}
+            />
+          )
+        }
       </div>
+
+
     </div>
   );
 }
