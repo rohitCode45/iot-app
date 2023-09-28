@@ -79,8 +79,9 @@
           width: fit-content;
           padding: 0.5em;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          border: 0.5px solid #27323838;
           row-gap: 0.5em;
-          background: #edededab;
+          background: rgb(234 234 234 / 67%);
           .cardLabel {
             font-weight: 500;
           }

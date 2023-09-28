@@ -20,14 +20,14 @@ function getTableDataFromTypeMap(liveDataMap, type) {
   }
   return tableData
 }
-const CardView = ({ cardKeys, data }) => {
+const CardView = ({ cardKeys, data, type }) => {
   const [cardNameFilter, setCardNameFilter] = useState('')
 
   return (
     <div className="telemetryCardConatiner">
       <div className="cardContainerHeader">
 
-        <input placeholder={`Search RLY_STATUS`} className='filterInput' value={cardNameFilter} onChange={(e) => { setCardNameFilter(e.target.value) }} />
+        <input placeholder={`Search ${type}`} className='filterInput' value={cardNameFilter} onChange={(e) => { setCardNameFilter(e.target.value) }} />
       </div>
       <div className="CardConatiner">
         {data.map((cardData, i) => {
@@ -39,8 +39,6 @@ const CardView = ({ cardKeys, data }) => {
                 {/* <span className="CardValue">{cardValue}</span> */}
               </div>
             )
-          } else {
-            return <span></span>
           }
 
         })}
@@ -97,6 +95,7 @@ function LiveTemetry() {
               cardKeys={telemetryPage.cardKeys}
               // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
               data={telemetryPage?.dummyData ?? []}
+              type={telemetryPage?.id}
             />
           )
         }

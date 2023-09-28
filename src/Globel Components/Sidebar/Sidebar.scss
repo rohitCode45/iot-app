@@ -22,9 +22,11 @@
       flex-direction: column;
 
       .sidebarTile {
-        padding: 0.4em 0.7em;
+        padding: 0.4em 1em;
         // font-weight: 600;
         font-size: 1.1em;
+        display: flex;
+        column-gap: 0.5em;
         // display: flex;
         // justify-content: center;
         // width: 100%;
@@ -35,6 +37,10 @@
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
+        .sidebarTileTextAndIcon {
+          display: flex;
+          column-gap: 0.5em;
+        }
       }
       .selectedSidebarTile {
         color: #f8f8f8;
@@ -95,6 +101,10 @@
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
       height: 1.5em;
+    }
+    .sidebar-toggle-icon:hover {
+      background-color: rgb(165 202 223);
+      color: black;
     }
   }
 }
