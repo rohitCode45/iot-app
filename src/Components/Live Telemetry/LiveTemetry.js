@@ -10,6 +10,7 @@ import Header from "../../Globel Components/Header/Header";
 import { liveConstantMap } from "./Telemetry Constant/telemetryUtils";
 import { useSelector } from "react-redux";
 import { selectLiveData, selectLiveStatus } from "../../Globel Utils/globeldataSlice";
+import RelayView from "./Views/RelayView";
 
 function getTableDataFromTypeMap(liveDataMap, type) {
   let tableData = []
@@ -90,13 +91,16 @@ function LiveTemetry() {
           )
         }
         {
-          telemetryPage.columns === null && (
-            <CardView
-              cardKeys={telemetryPage.cardKeys}
-              // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
+          telemetryPage.columns === null && telemetryPage.id === 'RLY_STATUS' && (
+            <RelayView
               data={telemetryPage?.dummyData ?? []}
-              type={telemetryPage?.id}
             />
+            // <CardView
+            //   cardKeys={telemetryPage.cardKeys}
+            //   // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
+            //   data={telemetryPage?.dummyData ?? []}
+            //   type={telemetryPage?.id}
+            // />
           )
         }
       </div>

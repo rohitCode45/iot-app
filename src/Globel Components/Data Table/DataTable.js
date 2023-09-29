@@ -29,6 +29,7 @@ const DataTable = ({ data, columns, id, loading }) => {
   }, [id])
 
   useEffect(() => {
+    console.log(columnFilter, data)
     Object.entries(columnFilter).forEach(([filterColumn, filterValue]) => {
       if (isColumnAvailibe(filterColumn, columns)) {
         setFilter(filterColumn, filterValue)

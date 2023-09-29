@@ -11,6 +11,9 @@ const ASSET_TYPES = [
   "EI_IOM",
   "EI_IFC",
   "RLY_STATUS",
+  "LAN",
+  "LEU",
+  "L2SO",
 ];
 
 export const ASSET_TYPE_LABEL_MAP = {
@@ -26,6 +29,9 @@ export const ASSET_TYPE_LABEL_MAP = {
   "EI_IOM": "IOM",
   "EI_IFC": "IFC",
   "RLY_STATUS": "RLY STATUS",
+  "LAN": "LAN",
+  "LEU": "LEU",
+  "L2SO": "L2SO",
 }
 
 export const sidebarData = [

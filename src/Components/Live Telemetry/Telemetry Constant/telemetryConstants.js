@@ -85,6 +85,10 @@ const EI_IFC_COLUMNS = [
 const RLY_STATUS_COLUMNS = [
   { Header: "rlyStatus", accessor: "rlyStatus" },
 ];
+const PSS_COLUMNS = [
+  { Header: "status", accessor: "status" },
+  { Header: "additionalInfo", accessor: "additionalInfo" },
+];
 
 
 export const telemetryPageInfo = {
@@ -113,7 +117,6 @@ export const telemetryPageInfo = {
       { "type": "SI_POINT", "name": "200A/B", "controlsNormal": "noControlToNormalDirection", "detectedNormal": "setAndLockedToNormalDirection", "controlsReverse": "noControlToReverseDirection", "detectedReverse": "notSetAndLockedToReverseDirection", "blocked": "notBlocked", "pointFailureInNormal": "normal", "pointFailureInReverse": "normal", "crankHandleKeyStatus": "insertion", "hexVal": "100000", "hexValOpt": "10" },
       { "type": "SI_POINT", "name": "201A", "controlsNormal": "noControlToNormalDirection", "detectedNormal": "notSetAndLockedToNormalDirection", "controlsReverse": "noControlToReverseDirection", "detectedReverse": "notSetAndLockedToReverseDirection", "blocked": "blocked", "pointFailureInNormal": "normal", "pointFailureInReverse": "failure", "crankHandleKeyStatus": "extraction", "hexVal": "10", "hexValOpt": "100" }
     ],
-
   },
   "/SI_TRKSEC": {
     id: 'SI_TRKSEC',
@@ -131,8 +134,6 @@ export const telemetryPageInfo = {
       { "type": "SI_LCGATE", "name": "CH1", "lCGateStatus": "lcGateOpen", "hexVal": "0" }
     ],
   },
-
-
   "/EI_FIU": {
     id: 'EI_FIU',
     Heading: "EI FIU LIVE",
@@ -248,5 +249,23 @@ export const telemetryPageInfo = {
       { "type": "RLY_STATUS", "name": "A2007HR", "rlyStatus": "Drop(OFF)/NotInstalled", "hexVal": "0" },
       { "type": "RLY_STATUS", "name": "A2007HR", "rlyStatus": "Drop(OFF)/NotInstalled", "hexVal": "0" },
     ],
+  },
+  "/LAN": {
+    id: 'LAN',
+    Heading: "LAN LIVE",
+    columns: [...COMMON_COLUMNS, ...PSS_COLUMNS],
+    dummyData: [{ "type": "LAN", "name": "LAN_NAME", "status": "LEU_Drop(OFF)/NotInstalled", "additionalInfo": "add_LAN" }],
+  },
+  "/LEU": {
+    id: 'LEU',
+    Heading: "LEU LIVE",
+    columns: [...COMMON_COLUMNS, ...PSS_COLUMNS],
+    dummyData: [{ "type": "LEU", "name": "LEU_NAME", "status": "LEU_Drop(OFF)/NotInstalled", "additionalInfo": "add_LEW" }],
+  },
+  "/L2SO": {
+    id: 'L2SO',
+    Heading: "L2SO LIVE",
+    columns: [...COMMON_COLUMNS, ...PSS_COLUMNS],
+    dummyData: [{ "type": "L2SO", "name": "L2SO_NAME", "status": "L2SO_Drop(OFF)/NotInstalled", "additionalInfo": "add_L2SO" }],
   },
 };
