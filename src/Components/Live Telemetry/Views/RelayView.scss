@@ -9,7 +9,32 @@
     // column-gap: 0.5em;
     .gird-cell {
       border: 1px solid;
-      flex: 1;
+      flex: 1 1;
+      display: flex;
+      font-size: 0.7em;
+      min-width: 8em;
+      min-height: 3em;
+      font-weight: 700;
+      .gird-cell-child {
+        flex: 1;
+        padding: 0.2em 0.2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .indexRow {
+      min-height: 1em;
+      border: none;
+      justify-content: center;
+    }
+    .indexCell {
+      min-width: 2em;
+      max-width: fit-content;
+      padding: em;
+      border: none;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

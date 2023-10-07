@@ -54,6 +54,7 @@ const CardView = ({ cardKeys, data, type }) => {
 function LiveTemetry() {
   const navigate = useNavigate()
   const liveTelemetryData = useSelector(selectLiveData)
+  console.log('liveTelemetryData', liveTelemetryData)
   const liveConstant = useSelector(selectLiveStatus)
   const location = useLocation();
   console.log(location.state)
@@ -84,8 +85,8 @@ function LiveTemetry() {
             <DataTable
               id={telemetryPage?.id ?? ""}
               columns={telemetryPage?.columns ?? []}
-              data={telemetryPage?.dummyData ?? []}
-              // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
+              // data={telemetryPage?.dummyData ?? []}
+              data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
               loading={false}
             />
           )
