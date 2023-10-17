@@ -11,18 +11,16 @@ const ASSET_TYPES_FIU = [
   "EI_IOM",
   "EI_IFC",
   "RLY_STATUS",
-  "LAN",
-  "LEU",
-  "L2SO",
+  // "LAN",
+  // "LEU",
+  // "L2SO",
 ];
 const ASSET_TYPES_FDS = [
-  "FDS_TYPE_1",
-  "FDS_TYPE_2",
-  "FDS_TYPE_3",
-  "FDS_TYPE_4",
-  "FDS_TYPE_5",
-  "FDS_TYPE_6",
-  "FDS_TYPE_7",
+  "FDS_TRKSEC",
+  "FDS_CNTHEAD",
+  "FDS_COM",
+  "FDS_IXL",
+  "FDS_FWDING",
 ];
 
 export const ASSET_TYPE_LABEL_MAP = {
@@ -38,14 +36,14 @@ export const ASSET_TYPE_LABEL_MAP = {
   "EI_IOM": "IOM",
   "EI_IFC": "IFC",
   "RLY_STATUS": "RLY STATUS",
-  "LAN": "LAN",
-  "LEU": "LEU",
-  "L2SO": "L2SO",
-  FDS_TYPE_1: 'FDS_TYPE_1',
-  FDS_TYPE_2: 'FDS_TYPE_2',
-  FDS_TYPE_3: 'FDS_TYPE_3',
-  FDS_TYPE_4: 'FDS_TYPE_4',
-  FDS_TYPE_5: 'FDS_TYPE_5',
+  // "LAN": "LAN",
+  // "LEU": "LEU",
+  // "L2SO": "L2SO",
+  FDS_TRKSEC: 'FDS_TRKSEC',
+  FDS_CNTHEAD: 'FDS_CNTHEAD',
+  FDS_COM: 'FDS_COM',
+  FDS_IXL: 'FDS_IXL',
+  FDS_FWDING: 'FDS_FWDING',
   FDS_TYPE_6: 'FDS_TYPE_6',
   FDS_TYPE_7: 'FDS_TYPE_7',
 }
@@ -72,7 +70,7 @@ export const sidebarData = [
     }),
   },
   {
-    id: 1,
+    id: 2,
     label: "FDS GRID VIEW",
     parentUrl: "/live-telemetry-fds",
     icon: (<svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" width='1.5em' height='1.5em' fill="#cacaca" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LanIcon"><path d="M13 22h8v-7h-3v-4h-5V9h3V2H8v7h3v2H6v4H3v7h8v-7H8v-2h8v2h-3z"></path></svg>),
@@ -88,7 +86,7 @@ export const sidebarData = [
 ];
 
 export const childToParentMap = {
-  "live-telemetry": [
+  "live-telemetry-fiu": [
     "SI_SIGNAL",
     "SI_POINT",
     "SI_ROUTE",
@@ -101,5 +99,12 @@ export const childToParentMap = {
     "EI_IOM",
     "EI_IFC",
     "RLY_STATUS",
+  ],
+  "live-telemetry-fds": [
+    "FDS_TRKSEC",
+    "FDS_CNTHEAD",
+    "FDS_COM",
+    "FDS_IXL",
+    "FDS_FWDING",
   ],
 };

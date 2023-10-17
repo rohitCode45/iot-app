@@ -31,37 +31,51 @@ function App() {
   const dispatch = useDispatch();
   const liveConstant = useSelector(selectLiveStatus);
 
-  useEffect(() => {
-    if (!webSocketRef.current) {
-      createWebSocketConnection();
-    }
-    return () => {
-      if (webSocketRef.current) {
-        webSocketRef.current.close();
-      }
-    };
-  }, []);
+  // useEffect(() => {
+  //   if (!webSocketRef.current) {
+  //     createWebSocketConnection();
+  //   }
+  //   return () => {
+  //     if (webSocketRef.current) {
+  //       webSocketRef.current.close();
+  //     }
+  //   };
+  // }, []);
   const createWebSocketConnection = () => {
     webSocketRef.current = new WebSocket(WebSocketUrl);
     webSocketRef.current.addEventListener("open", (e) => {
-      dispatch(setLiveStatus(2));
+      // dispatch(setLiveStatus(2));
       showSnackbar("success", "websocket connected");
     });
     webSocketRef.current.addEventListener("message", (e) => {
       const webSocketMessage = JSON.parse(e.data);
-      console.log('webSocketMessage', webSocketMessage)
-      // const { name, type } = webSocketMessage;
-      // if (liveDataRef.current[type]) {
-      //   liveDataRef.current = {
-      //     ...liveDataRef.current,
-      //     [type]: { ...liveDataRef.current[type], [name]: webSocketMessage },
-      //   };
-      // } else {
-      //   liveDataRef.current = {
-      //     ...liveDataRef.current,
-      //     [type]: { [name]: webSocketMessage },
-      //   };
-      // }
+      console.log("webSocketMessage", webSocketMessage);
+      const isInitialData = Array.isArray(webSocketMessage);
+      if (isInitialData) {
+        webSocketMessage.forEach((msgPacket) => {
+          const { name, type } = msgPacket;
+          if (liveDataRef.current[type]) {
+            liveDataRef.current = {
+              ...liveDataRef.current,
+              [type]: { ...liveDataRef.current[type], [name]: msgPacket },
+            };
+          } else {
+            liveDataRef.current = {
+              ...liveDataRef.current,
+              [type]: { [name]: msgPacket },
+            };
+          }
+        });
+        dispatch(setLiveStatus(2));
+      } else {
+        const { name, type } = webSocketMessage;
+        if (liveDataRef.current[type]) {
+          liveDataRef.current = {
+            ...liveDataRef.current,
+            [type]: { ...liveDataRef.current[type], [name]: webSocketMessage },
+          };
+        }
+      }
       dispatch(setLiveData(liveDataRef.current));
     });
     webSocketRef.current.addEventListener("error", (e) => {
@@ -72,7 +86,7 @@ function App() {
   return (
     <Router>
       <div id={"main-page-component"} className="App main-app">
-        <Header label='label' />
+        <Header label="label" />
         {liveConstant === 1 && <PageLoader />}
         <div className="main-app-container">
           <Sidebar />
@@ -82,8 +96,14 @@ function App() {
                 <Route path="/" element={<Outlet />}>
                   <Route index element={<Yardview />} />
                   <Route path={"yardview"} element={<Yardview />} />
-                  <Route path="live-telemetry-fiu/:id" element={<LiveTemetry />} />
-                  <Route path="live-telemetry-fds/:id" element={<LiveTelemetryFds />} />
+                  <Route
+                    path="live-telemetry-fiu/:id"
+                    element={<LiveTemetry />}
+                  />
+                  <Route
+                    path="live-telemetry-fds/:id"
+                    element={<LiveTelemetryFds />}
+                  />
                 </Route>
                 <Route path="*" element={<NotFound />} />
               </Routes>

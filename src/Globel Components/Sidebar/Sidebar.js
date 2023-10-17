@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -18,6 +18,7 @@ import {
 } from "../../Globel Utils/Icons";
 
 const isSelectedParentTile = (selecetdParent, selecetdChild) => {
+  // console.log('isSelectedParentTile', selecetdParent, selecetdChild)
   let isSelected = false;
   if (childToParentMap[selecetdParent]?.includes(selecetdChild)) {
     isSelected = true;
@@ -26,16 +27,22 @@ const isSelectedParentTile = (selecetdParent, selecetdChild) => {
 };
 
 const CollapseMenu = ({ sidebarItem }) => {
+  console.log('openState', sidebarItem)
   const location = useLocation();
   const [openState, setOpenState] = useState(false);
-  let selecetdParent = location.pathname.split("/")[1];
+  const [isParentSelected, setIsParentSelcetd] = useState(false)
+  let selecetdParent = sidebarItem.parentUrl.split('/')[1];
   let selecetdChild = location.pathname.split("/")[2];
-  // console.log('sidebarItem',location.pathname.split('/'))
+  // useEffect(() => {
+  //   setIsParentSelcetd(childToParentMap?.[selecetdParent]?.includes(selecetdChild) ?? false)
+  // }, [location])
+
   const toggleOpenState = () => {
     setOpenState(!openState);
   };
   return (
     <>
+
       <div
         onClick={toggleOpenState}
         className={`sidebarTile extendibleSidebarTile ${isSelectedParentTile(selecetdParent, selecetdChild)
@@ -94,7 +101,7 @@ function Sidebar() {
         <div className="sidebar">
           {sidebarData.map((sidebarItem, index) => {
             if (sidebarItem.children) {
-              return <CollapseMenu key={index} sidebarItem={sidebarItem} />;
+              return <CollapseMenu key={sidebarItem.id} sidebarItem={sidebarItem} />;
             } else {
               return (
                 <Link
