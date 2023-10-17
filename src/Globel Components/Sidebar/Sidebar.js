@@ -116,7 +116,6 @@ function Sidebar() {
             }
           })}
         </div>
-        <div className="sidebar-footer"></div>
       </div>
       <div className="sidebar-toggle-icon-container">
         <span

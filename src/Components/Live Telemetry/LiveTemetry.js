@@ -85,8 +85,8 @@ function LiveTemetry() {
             <DataTable
               id={telemetryPage?.id ?? ""}
               columns={telemetryPage?.columns ?? []}
-              // data={telemetryPage?.dummyData ?? []}
-              data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
+              data={telemetryPage?.dummyData ?? []}
+              // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
               loading={false}
             />
           )

@@ -1,4 +1,4 @@
-const ASSET_TYPES = [
+const ASSET_TYPES_FIU = [
   "SI_SIGNAL",
   "SI_POINT",
   "SI_ROUTE",
@@ -14,6 +14,15 @@ const ASSET_TYPES = [
   "LAN",
   "LEU",
   "L2SO",
+];
+const ASSET_TYPES_FDS = [
+  "FDS_TYPE_1",
+  "FDS_TYPE_2",
+  "FDS_TYPE_3",
+  "FDS_TYPE_4",
+  "FDS_TYPE_5",
+  "FDS_TYPE_6",
+  "FDS_TYPE_7",
 ];
 
 export const ASSET_TYPE_LABEL_MAP = {
@@ -32,6 +41,13 @@ export const ASSET_TYPE_LABEL_MAP = {
   "LAN": "LAN",
   "LEU": "LEU",
   "L2SO": "L2SO",
+  FDS_TYPE_1: 'FDS_TYPE_1',
+  FDS_TYPE_2: 'FDS_TYPE_2',
+  FDS_TYPE_3: 'FDS_TYPE_3',
+  FDS_TYPE_4: 'FDS_TYPE_4',
+  FDS_TYPE_5: 'FDS_TYPE_5',
+  FDS_TYPE_6: 'FDS_TYPE_6',
+  FDS_TYPE_7: 'FDS_TYPE_7',
 }
 
 export const sidebarData = [
@@ -43,10 +59,10 @@ export const sidebarData = [
   },
   {
     id: 1,
-    label: "Grid View",
-    parentUrl: "/live-telemetry",
+    label: "FIU GRID VIEW",
+    parentUrl: "/live-telemetry-fiu",
     icon: (<svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" width='1.5em' height='1.5em' fill="#cacaca" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LanIcon"><path d="M13 22h8v-7h-3v-4h-5V9h3V2H8v7h3v2H6v4H3v7h8v-7H8v-2h8v2h-3z"></path></svg>),
-    children: ASSET_TYPES.map((assetType, i) => {
+    children: ASSET_TYPES_FIU.map((assetType, i) => {
       let number = i + 1
       return {
         id: 1 + '_' + number,
@@ -54,33 +70,20 @@ export const sidebarData = [
         childUrl: '/' + assetType,
       }
     }),
-    // children: [
-    //   {
-    //     id: 2,
-    //     label: "SI_SIGNAL",
-    //     childUrl: "/SI_SIGNAL",
-    //   },
-    //   {
-    //     id: 3,
-    //     label: "SI_POINT",
-    //     childUrl: "/SI_POINT",
-    //   },
-    //   {
-    //     id: 4,
-    //     label: "SI_ROUTE",
-    //     childUrl: "/SI_ROUTE",
-    //   },
-    //   {
-    //     id: 5,
-    //     label: "SI_TRKSEC",
-    //     childUrl: "/SI_TRKSEC",
-    //   },
-    //   {
-    //     id: 6,
-    //     label: "SI_LCGATE",
-    //     childUrl: "/SI_LCGATE",
-    //   },
-    // ],
+  },
+  {
+    id: 1,
+    label: "FDS GRID VIEW",
+    parentUrl: "/live-telemetry-fds",
+    icon: (<svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" width='1.5em' height='1.5em' fill="#cacaca" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="LanIcon"><path d="M13 22h8v-7h-3v-4h-5V9h3V2H8v7h3v2H6v4H3v7h8v-7H8v-2h8v2h-3z"></path></svg>),
+    children: ASSET_TYPES_FDS.map((assetType, i) => {
+      let number = i + 1
+      return {
+        id: 1 + '_' + number,
+        label: ASSET_TYPE_LABEL_MAP[assetType],
+        childUrl: '/' + assetType,
+      }
+    }),
   },
 ];
 

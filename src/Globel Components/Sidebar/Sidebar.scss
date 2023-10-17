@@ -1,5 +1,122 @@
+// .sidebar-toogle-icon-container {
+//   display: flex;
+
+//   .sidebar-main-conatiner {
+//     width: 14em;
+//     background-color: #273238;
+//     color: #f8f8f8;
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 0.3em;
+//     transition: width 0.3s ease-in-out;
+//     .sideBarHeader {
+//       // flex: 0.5;
+//       // display: flex;
+//       // justify-content: center;
+//       // align-items: center;
+//       // padding: 0.5em 0em;
+//     }
+//     .sidebar {
+//       flex: 9;
+//       display: flex;
+//       flex-direction: column;
+
+//       .sidebarTile {
+//         padding: 0.4em 1em;
+//         // font-weight: 600;
+//         font-size: 1.1em;
+//         display: flex;
+//         column-gap: 0.5em;
+//         // display: flex;
+//         // justify-content: center;
+//         // width: 100%;
+//         // background: grey;
+//       }
+//       .extendibleSidebarTile {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         cursor: pointer;
+//         .sidebarTileTextAndIcon {
+//           display: flex;
+//           column-gap: 0.5em;
+//         }
+//       }
+//       .selectedSidebarTile {
+//         color: #f8f8f8;
+//         background-color: #16645c;
+//       }
+//       .selectedSideBarParent {
+//         background-color: #16645c;
+//       }
+//       .sidbardLink {
+//         text-decoration: none;
+//         color: #f8f8f8;
+//       }
+//       .wrapper {
+//         background-color: #343d42;
+//         max-height: max-content;
+//         box-sizing: border-box;
+//       }
+
+//       .extended > .sidbardLink {
+//         font-size: 1em;
+//         -webkit-transition: opacity 0.2s ease-in-out;
+//         transition: all 0.2s ease-in-out;
+//       }
+//       .minimized > .sidbardLink {
+//         font-size: 0px;
+//         -webkit-transition: opacity 0.2s ease-in-out;
+//         transition: all 0.2s ease-in-out;
+//       }
+//     }
+//     .sidebar-footer {
+//     }
+//   }
+//   .sidebarMinimized {
+//     width: 1em;
+//     transition: width 0.3s ease-in-out;
+//     .sidebar {
+//       display: none;
+//     }
+//   }
+//   .sidebar-toggle-icon-container {
+//     display: flex;
+//     justify-content: center;
+//     // align-items: center;
+//     padding-top: 2em;
+//     position: relative;
+//     .sidebar-toggle-icon {
+//       background-color: #ffffff;
+//       display: flex;
+//       cursor: pointer;
+//       justify-content: center;
+//       align-items: center;
+//       border-radius: 50%;
+//       position: absolute;
+//       font-size: 1em;
+//       z-index: 9;
+//       width: 1.5em;
+//       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+//         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+//         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+//       height: 1.5em;
+//     }
+//     .sidebar-toggle-icon:hover {
+//       background-color: rgb(165 202 223);
+//       color: black;
+//     }
+//   }
+// }
+
 .sidebar-toogle-icon-container {
   display: flex;
+  ::-webkit-scrollbar {
+    width: 0px !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: red;
+  }
 
   .sidebar-main-conatiner {
     width: 14em;
@@ -7,8 +124,11 @@
     color: #f8f8f8;
     display: flex;
     flex-direction: column;
+    max-height: 100%;
     row-gap: 0.3em;
+    overflow: auto;
     transition: width 0.3s ease-in-out;
+
     .sideBarHeader {
       // flex: 0.5;
       // display: flex;
@@ -73,6 +193,7 @@
     .sidebar-footer {
     }
   }
+
   .sidebarMinimized {
     width: 1em;
     transition: width 0.3s ease-in-out;
@@ -84,7 +205,7 @@
     display: flex;
     justify-content: center;
     // align-items: center;
-    padding-top: 2em;
+    padding-top: 3em;
     position: relative;
     .sidebar-toggle-icon {
       background-color: #ffffff;

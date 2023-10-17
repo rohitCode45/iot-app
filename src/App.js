@@ -23,6 +23,7 @@ import {
 } from "./Globel Utils/globeldataSlice";
 import { showSnackbar } from "./Globel Components/Snackbar/SnackBar";
 import PageLoader from "./Globel Components/Page Loader/PageLoader";
+import LiveTelemetryFds from "./Components/LiveTelemetryFds/LiveTelemetryFds";
 
 function App() {
   const webSocketRef = useRef();
@@ -48,18 +49,19 @@ function App() {
     });
     webSocketRef.current.addEventListener("message", (e) => {
       const webSocketMessage = JSON.parse(e.data);
-      const { name, type } = webSocketMessage;
-      if (liveDataRef.current[type]) {
-        liveDataRef.current = {
-          ...liveDataRef.current,
-          [type]: { ...liveDataRef.current[type], [name]: webSocketMessage },
-        };
-      } else {
-        liveDataRef.current = {
-          ...liveDataRef.current,
-          [type]: { [name]: webSocketMessage },
-        };
-      }
+      console.log('webSocketMessage', webSocketMessage)
+      // const { name, type } = webSocketMessage;
+      // if (liveDataRef.current[type]) {
+      //   liveDataRef.current = {
+      //     ...liveDataRef.current,
+      //     [type]: { ...liveDataRef.current[type], [name]: webSocketMessage },
+      //   };
+      // } else {
+      //   liveDataRef.current = {
+      //     ...liveDataRef.current,
+      //     [type]: { [name]: webSocketMessage },
+      //   };
+      // }
       dispatch(setLiveData(liveDataRef.current));
     });
     webSocketRef.current.addEventListener("error", (e) => {
@@ -80,7 +82,8 @@ function App() {
                 <Route path="/" element={<Outlet />}>
                   <Route index element={<Yardview />} />
                   <Route path={"yardview"} element={<Yardview />} />
-                  <Route path="live-telemetry/:id" element={<LiveTemetry />} />
+                  <Route path="live-telemetry-fiu/:id" element={<LiveTemetry />} />
+                  <Route path="live-telemetry-fds/:id" element={<LiveTelemetryFds />} />
                 </Route>
                 <Route path="*" element={<NotFound />} />
               </Routes>
