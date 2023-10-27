@@ -1,7 +1,7 @@
 // telemetry constants
 const COMMON_COLUMNS = [
     // { Header: "serialNumber",  accessor: (row, index) => index + 1 },
-    { Header: "name", accessor: "name" },
+    { Header: "name", accessor: "gearName" },
 
     { Header: "raiseTime", accessor: "raiseTime" },
     { Header: "sendTime", accessor: "sendTime" },

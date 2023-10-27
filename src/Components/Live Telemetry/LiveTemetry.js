@@ -14,7 +14,7 @@ import RelayView from "./Views/RelayView";
 
 function getTableDataFromTypeMap(liveDataMap, type) {
   let tableData = []
-  if (liveDataMap, type) {
+  if (liveDataMap && type) {
     if (liveDataMap[type]) {
       tableData = Object.values(liveDataMap[type])
     }
@@ -85,8 +85,8 @@ function LiveTemetry() {
             <DataTable
               id={telemetryPage?.id ?? ""}
               columns={telemetryPage?.columns ?? []}
-              data={telemetryPage?.dummyData ?? []}
-              // data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
+              // data={telemetryPage?.dummyData ?? []}
+              data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
               loading={false}
             />
           )

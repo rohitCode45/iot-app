@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = { liveData: {}, liveStatus: 3, liveFdsData: {}, fdsLiveState: 1 }
+const initialState = { liveData: {}, liveStatus: 3, liveFdsData: {}, fdsLiveState: 3 }
 const globeldataSlice = createSlice({
     name: "globelData",
     initialState,
@@ -22,6 +22,7 @@ const globeldataSlice = createSlice({
 export const {
     setLiveData,
     setLiveStatus,
+    setLiveFdsData
 } = globeldataSlice.actions;
 export const selectLiveData = state => (state.globelData.liveData)
 export const selectLiveStatus = state => (state.globelData.liveStatus)
