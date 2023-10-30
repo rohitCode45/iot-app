@@ -27,10 +27,14 @@ import PageLoader from "./Globel Components/Page Loader/PageLoader";
 import LiveTelemetryFds from "./Components/LiveTelemetryFds/LiveTelemetryFds";
 import { fdsMock, fiuMock } from "./Globel Utils/globelConstants";
 
-const storeWebMSG =[]
+const storeWebMSG = [];
 
 const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
-  let _packet ={}
+  let _packet = {};
+
+  const splittedMsgType = msgType.split("_");
+  
+  const { elementStatus, raiseTime, sendTime, ...rest } = msgDetail;
   switch (gearType) {
     case "FDS_TRKSEC": {
       _packet = {
@@ -41,33 +45,101 @@ const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
       break;
     }
     case "FDS_CNTHEAD": {
-      const splittedMsgType = msgType.split('_')
       const packetNum = splittedMsgType[1];
       const sensorNum = splittedMsgType[2];
-      const {elementStatus, raiseTime,sendTime,...rest } = msgDetail
+
       _packet = {
         raiseTime,
         sendTime,
         elementStatus,
-        [["elementStatus", packetNum].join("_")]:
-          msgDetail.elementStatus,
+        [["elementStatus", packetNum].join("_")]: msgDetail.elementStatus,
       };
-      if(sensorNum){
-        Object.entries(rest).forEach(([key,val])=>{
-        _packet[[key,sensorNum].join("_")] = val
-        })
-      }else{
+      if (sensorNum) {
+        Object.entries(rest).forEach(([key, val]) => {
+          _packet[[key, sensorNum].join("_")] = val;
+        });
+      } else {
         _packet = {
           ..._packet,
-          ...rest
-        }
+          ...rest,
+        };
+      }
+      break;
+    }
+    case "FDS_COM": {
+
+      const packetNum = splittedMsgType[1];
+      const canBusChannel = splittedMsgType[2];
+      const channelNumber = splittedMsgType[3];
+
+      _packet = {
+        raiseTime,
+        sendTime,
+        elementStatus,
+        [["elementStatus", packetNum].join("_")]: msgDetail.elementStatus,
+      };
+      if (canBusChannel && channelNumber) {
+        Object.entries(rest).forEach(([key, val]) => {
+          _packet[[key, canBusChannel, channelNumber].join("_")] = val;
+        });
+      } else {
+        _packet = {
+          ..._packet,
+          ...rest,
+        };
+      }
+      break;
+    }
+    case "FDS_IXL": {
+
+      const packetNum = splittedMsgType[1];
+  const InterLockingOrEthernetNumber = splittedMsgType[2]
+
+      _packet = {
+        raiseTime,
+        sendTime,
+        elementStatus,
+        [["elementStatus", packetNum].join("_")]: msgDetail.elementStatus,
+      };
+      if (InterLockingOrEthernetNumber) {
+        Object.entries(rest).forEach(([key, val]) => {
+          _packet[[key, InterLockingOrEthernetNumber].join("_")] = val;
+        });
+      } else {
+        _packet = {
+          ..._packet,
+          ...rest,
+        };
+      }
+      break;
+    }
+    case "FDS_FWDING": {
+
+      const packetNum = splittedMsgType[1];
+  const socketEthernetNumber = splittedMsgType[2]
+
+      _packet = {
+        raiseTime,
+        sendTime,
+        elementStatus,
+        [["elementStatus", packetNum].join("_")]: msgDetail.elementStatus,
+      };
+      if (socketEthernetNumber) {
+        Object.entries(rest).forEach(([key, val]) => {
+          _packet[[key, socketEthernetNumber].join("_")] = val;
+        });
+      } else {
+        _packet = {
+          ..._packet,
+          ...rest,
+        };
       }
       break;
     }
     default:
     // code block
   }
-  return _packet
+  return _packet;
 };
 
 function App() {
@@ -171,6 +243,11 @@ function App() {
           ...liveDataRef.current,
           [type]: { ...liveDataRef.current[type], [name]: webSocketMessage },
         };
+      }else{
+        liveDataRef.current = {
+          ...liveDataRef.current,
+          [type]: { [name]: webSocketMessage },
+        };
       }
     }
     dispatch(setLiveData(liveDataRef.current));
@@ -178,11 +255,10 @@ function App() {
 
   const createFdsWebSocket = () => {
     fdsWebSocketRef.current = new WebSocket(WebSocketUrl_fds);
-    fdsWebSocketRef.current.addEventListener("open", (e) => {
-    });
+    fdsWebSocketRef.current.addEventListener("open", (e) => {});
     fdsWebSocketRef.current.addEventListener("message", (e) => {
       const webSocketMessage = JSON.parse(e.data);
-      storeWebMSG.push(webSocketMessage)
+      storeWebMSG.push(webSocketMessage);
       fdsWebSocketMsfParsing(webSocketMessage);
     });
     fdsWebSocketRef.current.addEventListener("error", (e) => {
@@ -204,6 +280,10 @@ function App() {
     });
     webSocketRef.current.addEventListener("error", (e) => {
       dispatch(setLiveStatus(3));
+      const dumm = [...fiuMock]
+      dumm.forEach((a)=>{
+        fiuWebsocketMsgParsing(a);
+      })
       showSnackbar("error", "Failed to connect websocket");
     });
   };

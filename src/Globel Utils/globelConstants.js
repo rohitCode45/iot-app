@@ -107,9 +107,75 @@ export const fiuMock = [
     hexVal: "0",
   },
   {
+    type: "RLY_STATUS",
+    name: "A20uu07HR111111111",
+    rlyStatus: "Drop(ON)/installed",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR2",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR3",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR4",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR5",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR6",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR7",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR8",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR9",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR10",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
+    type: "RLY_STATUS",
+    name: "A20uu07HR11",
+    rlyStatus: "Drop(OFF)/NotInstalled",
+    hexVal: "0",
+  },
+  {
     type: "LAN",
     name: "LAN_NAME",
-    status: "LEU_Drop(OFF)/NotInstalled",
+    status: "LEU_Drop(ON)/NotInstalled",
     additionalInfo: "add_LAN",
   },
   {
@@ -283,6 +349,133 @@ export const fdsMock = [
       raiseTime: "2023-09-16T17:03:40.656",
       sendTime: "2023-09-16T17:08:45.054",
       countingHead: "ok",
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_COM",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsCom_410",
+    msgDetail: {
+      elementStatus: "online",
+      raiseTime: "2023-09-16T16:40:16.586",
+      sendTime: "2023-09-16T17:08:45.038",
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_COM",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsCom_404",
+    msgDetail: {
+      elementStatus: "error",
+      raiseTime: "2023-09-16T17:02:05.676",
+      sendTime: "2023-09-16T17:08:45.051",
+      boardRedundancy: "active redundant",
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_FWDING",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsFwding_504",
+    msgDetail: {
+      elementStatus: "online",
+      raiseTime: "2023-09-16T16:40:16.586",
+      sendTime: "2023-09-16T17:08:45.039",
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_FWDING",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsFwding_502_1",
+    msgDetail: {
+      elementStatus: "error",
+      raiseTime: "2023-09-16T17:08:39.232",
+      sendTime: "2023-09-16T17:08:45.079",
+      socketEthernetStatus: "ok",
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_FWDING",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsFwding_502_2",
+    msgDetail: {
+      elementStatus: "error",
+      raiseTime: "2023-09-16T17:08:39.232",
+      sendTime: "2023-09-16T17:08:45.080",
+      socketEthernetStatus: "ok",
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_IXL",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsIxl_612",
+    msgDetail: {
+      elementStatus: "online",
+      raiseTime: "2023-09-16T16:40:16.587",
+      sendTime: "2023-09-16T17:08:45.039",
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_IXL",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsIxl_611",
+    msgDetail: {
+      "elementStatus":"error","raiseTime":"2023-09-16T17:03:05.705","sendTime":"2023-09-16T17:08:45.052","sumErrorTimeout":"ok"
+    },
+  },
+  {
+    fdsDetail: {
+      fdsIpAddress: "192.168.29.96",
+      fdsName: "FDS1_NEW ATELI",
+      fdsType: "FDSFADCR2",
+      fdsDomain: "ALH4 to ALH3",
+    },
+    gearType: "FDS_IXL",
+    gearName: "COM-FSE-1(M)_ALH-3-DN",
+    msgType: "fdsIxl_605_1",
+    msgDetail: {
+      "elementStatus":"error","raiseTime":"2023-09-16T17:03:05.706","sendTime":"2023-09-16T17:08:45.052","interlockingLinkStatus":"available"
     },
   },
 

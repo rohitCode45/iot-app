@@ -30,7 +30,7 @@ const renderTableHeaders = (headerGroups) =>
       ))}
     </tr>
   ));
-const DataTable = ({ data, columns, id, loading, hasColumnGrouping }) => {
+const DataTable = ({ data, columns, id, loading, hasColumnGrouping,onRowClick}) => {
   const {
     getTableProps,
     getTableBodyProps,
@@ -54,7 +54,6 @@ const DataTable = ({ data, columns, id, loading, hasColumnGrouping }) => {
   }, [id]);
 
   useEffect(() => {
-    console.log(columnFilter, data);
     Object.entries(columnFilter).forEach(([filterColumn, filterValue]) => {
       if (isColumnAvailibe(filterColumn, columns)) {
         setFilter(filterColumn, filterValue);
@@ -77,6 +76,12 @@ const DataTable = ({ data, columns, id, loading, hasColumnGrouping }) => {
     setColumnFilter((prev) => {
       prev[filterColumn] = filterValue;
     });
+  };
+
+  const handleRowClick = (event,row) => {
+    if (onRowClick) {
+      onRowClick({ event, row });
+    }
   };
 
   return (
@@ -147,7 +152,7 @@ const DataTable = ({ data, columns, id, loading, hasColumnGrouping }) => {
                 {rows.map((row) => {
                   prepareRow(row);
                   return (
-                    <tr {...row.getRowProps()}>
+                    <tr {...row.getRowProps()} onClick={(e) => handleRowClick(e,row)}>
                       {row.cells.map((cell) => {
                         return (
                           <td {...cell.getCellProps()}>
