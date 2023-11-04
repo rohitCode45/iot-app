@@ -22,6 +22,13 @@ const initPopState = {
   infodata: null,
 };
 
+const POP_COLS = {
+  "RLY_STATUS": [
+    { Header: "name", accessor: "name" },
+    { Header: "Relay Status", accessor: "rlyStatus" },
+  ]
+}
+
 function getTableDataFromTypeMap(liveDataMap, type) {
   let tableData = [];
   if (liveDataMap && type) {
@@ -31,7 +38,7 @@ function getTableDataFromTypeMap(liveDataMap, type) {
   }
   return tableData;
 }
-const CardView = ({ cardKeys, data, type }) => {
+const CardView = ({ cardKeys, data, type, onCardClick }) => {
   const [cardNameFilter, setCardNameFilter] = useState("");
 
   return (
@@ -61,20 +68,23 @@ const CardView = ({ cardKeys, data, type }) => {
                   background: cardValue.includes("OFF") ? "" : "#bff1bf",
                 }}
                 className="telemetryCard"
+                onClick={() => { onCardClick(cardData) }}
               >
                 {/* // <div key={i} title={cardValue} style={{ background: cardValue.includes('OFF') ? 'red' : 'blue' }} className="telemetryCard"> */}
-                <span className="cardLabel">
-                  {cardLabel.length > 10
-                    ? cardLabel.slice(0, 10) + "..."
-                    : cardLabel}
+                <span className="cardLabel" >
+                  {
+                    cardLabel.length > 10
+                      ? cardLabel.slice(0, 10) + "..."
+                      : cardLabel
+                  }
                 </span>
                 {/* <span className="CardValue">{cardValue}</span> */}
               </div>
             );
           }
         })}
-      </div>
-    </div>
+      </div >
+    </div >
   );
 };
 
@@ -84,21 +94,20 @@ function LiveTemetry() {
   const liveTelemetryData = useSelector(selectLiveData);
   const liveConstant = useSelector(selectLiveStatus);
   const location = useLocation();
-  const CHILD_URL =( '/'+location?.pathname?.split('/')?.pop() )?? null
-  console.log('lllocation',location.pathname.split('/').pop())
+  const CHILD_URL = ('/' + location?.pathname?.split('/')?.pop()) ?? null
 
   const telemetryPage = telemetryPageInfo?.[CHILD_URL];
   // const telemetryPage = telemetryPageInfo?.[location?.state?.childUrl];
   useEffect(() => {
     if (!CHILD_URL) {
-    // if (!location.state) {
+      // if (!location.state) {
       navigate("/");
     }
   }, []);
   const handlerowClick = (rowData) => {
     setInfoPopup((prev) => {
       prev.isOpen = true;
-      prev.infodata = rowData?.values ?? {};
+      prev.infodata = rowData;
     });
   };
   return (
@@ -130,7 +139,7 @@ function LiveTemetry() {
             data={getTableDataFromTypeMap(liveTelemetryData, telemetryPage?.id)}
             loading={false}
             onRowClick={({ event, row }) => {
-              handlerowClick(row);
+              handlerowClick(row?.values ?? {});
             }}
           />
         )}
@@ -145,6 +154,12 @@ function LiveTemetry() {
                 liveTelemetryData,
                 telemetryPage?.id
               )}
+              onCardClick={(data) => {
+                setInfoPopup((prev) => {
+                  prev.isOpen = true;
+                  prev.infodata = data;
+                });
+              }}
               // data={telemetryPage?.dummyData ?? []}
               type={telemetryPage?.id}
             />
@@ -154,8 +169,10 @@ function LiveTemetry() {
         <InfoPopup
           isOpen={infoPopup.isOpen}
           onClose={() => setInfoPopup(initPopState)}
-          cols={telemetryPage?.columns ?? []}
-          infoData = {infoPopup.infodata}
+          cols={telemetryPage?.columns ?? POP_COLS[telemetryPage?.id]}
+          infoData={infoPopup.infodata}
+          gearNameKey={'name'}
+          gearType={telemetryPage?.id}
         />
       )}
     </div>

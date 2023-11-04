@@ -16,8 +16,10 @@ import { useEffect, useRef } from "react";
 import { WebSocketUrl, WebSocketUrl_fds } from "./Globel Utils/Endpoints";
 import { useDispatch, useSelector } from "react-redux";
 import {
+  selectFdsLiveStatus,
   selectLiveData,
   selectLiveStatus,
+  setFdsLiveStatus,
   setLiveData,
   setLiveFdsData,
   setLiveStatus,
@@ -33,7 +35,7 @@ const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
   let _packet = {};
 
   const splittedMsgType = msgType.split("_");
-  
+
   const { elementStatus, raiseTime, sendTime, ...rest } = msgDetail;
   switch (gearType) {
     case "FDS_TRKSEC": {
@@ -93,7 +95,7 @@ const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
     case "FDS_IXL": {
 
       const packetNum = splittedMsgType[1];
-  const InterLockingOrEthernetNumber = splittedMsgType[2]
+      const InterLockingOrEthernetNumber = splittedMsgType[2]
 
       _packet = {
         raiseTime,
@@ -116,7 +118,7 @@ const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
     case "FDS_FWDING": {
 
       const packetNum = splittedMsgType[1];
-  const socketEthernetNumber = splittedMsgType[2]
+      const socketEthernetNumber = splittedMsgType[2]
 
       _packet = {
         raiseTime,
@@ -243,7 +245,7 @@ function App() {
           ...liveDataRef.current,
           [type]: { ...liveDataRef.current[type], [name]: webSocketMessage },
         };
-      }else{
+      } else {
         liveDataRef.current = {
           ...liveDataRef.current,
           [type]: { [name]: webSocketMessage },
@@ -255,13 +257,16 @@ function App() {
 
   const createFdsWebSocket = () => {
     fdsWebSocketRef.current = new WebSocket(WebSocketUrl_fds);
-    fdsWebSocketRef.current.addEventListener("open", (e) => {});
+    fdsWebSocketRef.current.addEventListener("open", (e) => {
+      dispatch(setFdsLiveStatus(2))
+    });
     fdsWebSocketRef.current.addEventListener("message", (e) => {
       const webSocketMessage = JSON.parse(e.data);
       storeWebMSG.push(webSocketMessage);
       fdsWebSocketMsfParsing(webSocketMessage);
     });
     fdsWebSocketRef.current.addEventListener("error", (e) => {
+      dispatch(setFdsLiveStatus(3))
       const dummyData = [...fdsMock];
       dummyData.forEach((a) => {
         fdsWebSocketMsfParsing(a);
@@ -271,8 +276,10 @@ function App() {
 
   const createWebSocketConnection = () => {
     webSocketRef.current = new WebSocket(WebSocketUrl);
+    dispatch(setLiveStatus(1))
     webSocketRef.current.addEventListener("open", (e) => {
-      showSnackbar("success", "websocket connected");
+      showSnackbar("success", "FIU websocket connected");
+
     });
     webSocketRef.current.addEventListener("message", (e) => {
       const webSocketMessage = JSON.parse(e.data);
@@ -281,10 +288,10 @@ function App() {
     webSocketRef.current.addEventListener("error", (e) => {
       dispatch(setLiveStatus(3));
       const dumm = [...fiuMock]
-      dumm.forEach((a)=>{
+      dumm.forEach((a) => {
         fiuWebsocketMsgParsing(a);
       })
-      showSnackbar("error", "Failed to connect websocket");
+      showSnackbar("error", "Failed to connect FIU websocket");
     });
   };
   return (

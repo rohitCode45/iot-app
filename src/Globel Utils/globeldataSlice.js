@@ -22,7 +22,8 @@ const globeldataSlice = createSlice({
 export const {
     setLiveData,
     setLiveStatus,
-    setLiveFdsData
+    setLiveFdsData,
+    setFdsLiveStatus
 } = globeldataSlice.actions;
 export const selectLiveData = state => (state.globelData.liveData)
 export const selectLiveStatus = state => (state.globelData.liveStatus)

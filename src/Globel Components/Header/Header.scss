@@ -7,8 +7,14 @@
   display: flex;
   justify-content: space-between;
   column-gap: 2em;
-  .header-label {
-    font-weight: 600;
-    font-size: 1.3em;
+  .header-label-and-btlogo {
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    column-gap: 0.5em;
+    .headerLabel {
+      font-weight: 600;
+      font-size: 1.3em;
+    }
   }
 }

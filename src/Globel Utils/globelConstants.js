@@ -42,7 +42,7 @@ export const fiuMock = [
   },
   {
     type: "SI_TRKSEC",
-    name: "C98XT",
+    name: "ICDMXT11",
     trackSectionOccupiedOrClear: "clear",
     trackSectionError: "error",
     trackSectionBlockedByEI: "blockedByEI",
@@ -102,13 +102,13 @@ export const fiuMock = [
   },
   {
     type: "RLY_STATUS",
-    name: "A20uu07HR",
+    name: "S1A20uu07HR",
     rlyStatus: "Drop(OFF)/NotInstalled",
     hexVal: "0",
   },
   {
     type: "RLY_STATUS",
-    name: "A20uu07HR111111111",
+    name: "S1A20uu07HR111111111",
     rlyStatus: "Drop(ON)/installed",
     hexVal: "0",
   },
@@ -120,7 +120,7 @@ export const fiuMock = [
   },
   {
     type: "RLY_STATUS",
-    name: "A20uu07HR3",
+    name: "201AA20uu07HR3",
     rlyStatus: "Drop(OFF)/NotInstalled",
     hexVal: "0",
   },
@@ -461,7 +461,7 @@ export const fdsMock = [
     gearName: "COM-FSE-1(M)_ALH-3-DN",
     msgType: "fdsIxl_611",
     msgDetail: {
-      "elementStatus":"error","raiseTime":"2023-09-16T17:03:05.705","sendTime":"2023-09-16T17:08:45.052","sumErrorTimeout":"ok"
+      "elementStatus": "error", "raiseTime": "2023-09-16T17:03:05.705", "sendTime": "2023-09-16T17:08:45.052", "sumErrorTimeout": "ok"
     },
   },
   {
@@ -475,7 +475,7 @@ export const fdsMock = [
     gearName: "COM-FSE-1(M)_ALH-3-DN",
     msgType: "fdsIxl_605_1",
     msgDetail: {
-      "elementStatus":"error","raiseTime":"2023-09-16T17:03:05.706","sendTime":"2023-09-16T17:08:45.052","interlockingLinkStatus":"available"
+      "elementStatus": "error", "raiseTime": "2023-09-16T17:03:05.706", "sendTime": "2023-09-16T17:08:45.052", "interlockingLinkStatus": "available"
     },
   },
 
