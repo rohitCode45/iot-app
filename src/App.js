@@ -69,7 +69,6 @@ const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
       break;
     }
     case "FDS_COM": {
-
       const packetNum = splittedMsgType[1];
       const canBusChannel = splittedMsgType[2];
       const channelNumber = splittedMsgType[3];
@@ -93,9 +92,8 @@ const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
       break;
     }
     case "FDS_IXL": {
-
       const packetNum = splittedMsgType[1];
-      const InterLockingOrEthernetNumber = splittedMsgType[2]
+      const InterLockingOrEthernetNumber = splittedMsgType[2];
 
       _packet = {
         raiseTime,
@@ -116,9 +114,8 @@ const getPacketFromMsgDetail = (gearName, gearType, msgType, msgDetail) => {
       break;
     }
     case "FDS_FWDING": {
-
       const packetNum = splittedMsgType[1];
-      const socketEthernetNumber = splittedMsgType[2]
+      const socketEthernetNumber = splittedMsgType[2];
 
       _packet = {
         raiseTime,
@@ -151,6 +148,7 @@ function App() {
   const fdsdataRef = useRef({});
   const dispatch = useDispatch();
   const liveConstant = useSelector(selectLiveStatus);
+  const fdsLiveConstant = useSelector(selectFdsLiveStatus)
 
   useEffect(() => {
     if (!webSocketRef.current) {
@@ -170,51 +168,106 @@ function App() {
   }, []);
 
   function fdsWebSocketMsfParsing(webSocketMessage) {
-    const { gearName, gearType, msgType, fdsDetail, msgDetail } =
-      webSocketMessage;
-    let _packet = getPacketFromMsgDetail(
-      gearName,
-      gearType,
-      msgType,
-      msgDetail
-    );
+    const isInitialData = Array.isArray(webSocketMessage);
+    if (isInitialData) {
+      webSocketMessage.forEach((msgPacket) => {
+        const { gearName, gearType, msgType, fdsDetail, msgDetail } =
+          msgPacket;
+        let _packet = getPacketFromMsgDetail(
+          gearName,
+          gearType,
+          msgType,
+          msgDetail
+        );
 
-    if (fdsdataRef.current[gearType]) {
-      if (fdsdataRef.current[gearType][gearName]) {
-        fdsdataRef.current = {
-          ...fdsdataRef.current,
-          [gearType]: {
-            ...fdsdataRef.current[gearType],
-            [gearName]: {
-              ...fdsdataRef.current[gearType][gearName],
-              gearName,
-              gearType,
-              fdsDetail,
-              ..._packet,
+        if (fdsdataRef.current[gearType]) {
+          if (fdsdataRef.current[gearType][gearName]) {
+            fdsdataRef.current = {
+              ...fdsdataRef.current,
+              [gearType]: {
+                ...fdsdataRef.current[gearType],
+                [gearName]: {
+                  ...fdsdataRef.current[gearType][gearName],
+                  gearName,
+                  gearType,
+                  fdsDetail,
+                  ..._packet,
+                },
+              },
+            };
+          } else {
+            fdsdataRef.current = {
+              ...fdsdataRef.current,
+              [gearType]: {
+                ...fdsdataRef.current[gearType],
+                [gearName]: {
+                  gearName,
+                  gearType,
+                  fdsDetail,
+                  ..._packet,
+                },
+              },
+            };
+          }
+        } else {
+          fdsdataRef.current = {
+            ...fdsdataRef.current,
+            [gearType]: {
+              [gearName]: { gearName, gearType, fdsDetail, ..._packet },
             },
-          },
-        };
+          };
+        }
+
+      });
+      dispatch(setFdsLiveStatus(2));
+
+    } else {
+      const { gearName, gearType, msgType, fdsDetail, msgDetail } =
+        webSocketMessage;
+      let _packet = getPacketFromMsgDetail(
+        gearName,
+        gearType,
+        msgType,
+        msgDetail
+      );
+
+      if (fdsdataRef.current[gearType]) {
+        if (fdsdataRef.current[gearType][gearName]) {
+          fdsdataRef.current = {
+            ...fdsdataRef.current,
+            [gearType]: {
+              ...fdsdataRef.current[gearType],
+              [gearName]: {
+                ...fdsdataRef.current[gearType][gearName],
+                gearName,
+                gearType,
+                fdsDetail,
+                ..._packet,
+              },
+            },
+          };
+        } else {
+          fdsdataRef.current = {
+            ...fdsdataRef.current,
+            [gearType]: {
+              ...fdsdataRef.current[gearType],
+              [gearName]: {
+                gearName,
+                gearType,
+                fdsDetail,
+                ..._packet,
+              },
+            },
+          };
+        }
       } else {
         fdsdataRef.current = {
           ...fdsdataRef.current,
           [gearType]: {
-            ...fdsdataRef.current[gearType],
-            [gearName]: {
-              gearName,
-              gearType,
-              fdsDetail,
-              ..._packet,
-            },
+            [gearName]: { gearName, gearType, fdsDetail, ..._packet },
           },
         };
       }
-    } else {
-      fdsdataRef.current = {
-        ...fdsdataRef.current,
-        [gearType]: {
-          [gearName]: { gearName, gearType, fdsDetail, ..._packet },
-        },
-      };
     }
 
     dispatch(setLiveFdsData(fdsdataRef.current));
@@ -256,9 +309,10 @@ function App() {
   }
 
   const createFdsWebSocket = () => {
+    dispatch(setFdsLiveStatus(1));
     fdsWebSocketRef.current = new WebSocket(WebSocketUrl_fds);
     fdsWebSocketRef.current.addEventListener("open", (e) => {
-      dispatch(setFdsLiveStatus(2))
+
     });
     fdsWebSocketRef.current.addEventListener("message", (e) => {
       const webSocketMessage = JSON.parse(e.data);
@@ -266,20 +320,19 @@ function App() {
       fdsWebSocketMsfParsing(webSocketMessage);
     });
     fdsWebSocketRef.current.addEventListener("error", (e) => {
-      dispatch(setFdsLiveStatus(3))
+      dispatch(setFdsLiveStatus(3));
       const dummyData = [...fdsMock];
-      dummyData.forEach((a) => {
-        fdsWebSocketMsfParsing(a);
-      });
+      // dummyData.forEach((a) => {
+      fdsWebSocketMsfParsing(dummyData);
+      // });
     });
   };
 
   const createWebSocketConnection = () => {
     webSocketRef.current = new WebSocket(WebSocketUrl);
-    dispatch(setLiveStatus(1))
+    dispatch(setLiveStatus(1));
     webSocketRef.current.addEventListener("open", (e) => {
       showSnackbar("success", "FIU websocket connected");
-
     });
     webSocketRef.current.addEventListener("message", (e) => {
       const webSocketMessage = JSON.parse(e.data);
@@ -287,10 +340,10 @@ function App() {
     });
     webSocketRef.current.addEventListener("error", (e) => {
       dispatch(setLiveStatus(3));
-      const dumm = [...fiuMock]
-      dumm.forEach((a) => {
-        fiuWebsocketMsgParsing(a);
-      })
+      const dumm = [...fiuMock];
+      // dumm.forEach((a) => {
+      fiuWebsocketMsgParsing(dumm);
+      // });
       showSnackbar("error", "Failed to connect FIU websocket");
     });
   };
@@ -298,7 +351,7 @@ function App() {
     <Router>
       <div id={"main-page-component"} className="App main-app">
         <Header label="label" />
-        {liveConstant === 1 && <PageLoader />}
+        {(liveConstant === 1 || fdsLiveConstant === 1) && <PageLoader />}
         <div className="main-app-container">
           <Sidebar />
           {liveConstant !== 1 && (

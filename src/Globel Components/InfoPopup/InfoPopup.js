@@ -100,7 +100,6 @@ function InfoPopup({ isOpen, onClose, infoData, cols, gearType, gearNameKey }) {
       backgroundColor: "#80808045",
     },
   };
-  console.log("MappingObject", MappingObject);
   function afterOpenModal() { }
   return (
     <Modal
